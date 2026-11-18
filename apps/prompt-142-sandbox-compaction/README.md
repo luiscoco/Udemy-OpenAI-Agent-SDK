@@ -1,5 +1,11 @@
 # Prompt 142 — Sandbox compaction
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sandboxes.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Configure compaction for a long sandbox task and verify that workspace references remain usable.
 
 ## Run in Windows Terminal

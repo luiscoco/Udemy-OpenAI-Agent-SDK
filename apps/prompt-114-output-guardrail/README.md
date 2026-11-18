@@ -1,5 +1,11 @@
 # Prompt 114 — Output guardrail
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/guardrails.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Validate a final answer against application requirements and handle a triggered output guardrail.
 
 ## Run in Windows Terminal

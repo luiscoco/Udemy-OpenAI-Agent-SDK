@@ -1,5 +1,11 @@
 # Prompt 36 — Mixed-model workflow
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/runtime-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Use a smaller model for routing and a more capable model for difficult tasks, then measure the tradeoff.
 
 Run from Windows Terminal with PowerShell.

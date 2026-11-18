@@ -1,5 +1,11 @@
 # Prompt 191 — ChatKit interface
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/advanced.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Connect a self-hosted ChatKit interface to my Agents SDK backend, including persistent threads and streamed results.
 
 ## Run in Windows Terminal

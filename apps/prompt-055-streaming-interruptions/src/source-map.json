@@ -1,0 +1,15 @@
+{
+  "number": 55,
+  "title": "Streaming interruptions",
+  "implementation": "tools-execution.mjs",
+  "sources": {
+    "tools/tools-execution.mjs": "tools-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "tools-execution.mjs"
+  ]
+}

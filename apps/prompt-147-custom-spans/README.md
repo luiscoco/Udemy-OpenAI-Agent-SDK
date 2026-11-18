@@ -1,5 +1,11 @@
 # Prompt 147 — Custom spans
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/tracing.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Add custom spans around retrieval and application services so their latency is visible alongside agent activity.
 
 ## Run in Windows Terminal

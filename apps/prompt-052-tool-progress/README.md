@@ -1,5 +1,11 @@
 # Prompt 52 — Tool progress
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/streaming-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Display tool-start, tool-completion, and tool-failure progress using supported events or lifecycle hooks.
 
 Run in Windows Terminal with PowerShell.

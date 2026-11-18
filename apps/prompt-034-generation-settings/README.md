@@ -1,5 +1,11 @@
 # Prompt 34 — Generation settings
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/structured-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Configure supported generation settings and explain which settings the selected model accepts.
 
 From Windows PowerShell

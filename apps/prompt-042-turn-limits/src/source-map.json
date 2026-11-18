@@ -1,0 +1,15 @@
+{
+  "number": 42,
+  "title": "Turn limits",
+  "implementation": "runtime-execution.mjs",
+  "sources": {
+    "runtime/runtime-execution.mjs": "runtime-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "runtime-execution.mjs"
+  ]
+}

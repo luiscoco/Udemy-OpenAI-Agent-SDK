@@ -1,5 +1,11 @@
 # Prompt 91 — Routing descriptions
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/handoff-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Write specialist descriptions that clearly distinguish when each handoff should occur.
 
 Compare the actual handoff function names and descriptions. The vague classroom route is intentionally ambiguous. Live decisions depend on the selected model and should be inspected.

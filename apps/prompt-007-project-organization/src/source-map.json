@@ -1,0 +1,25 @@
+{
+  "number": 7,
+  "title": "Project organization",
+  "implementation": "execute.mjs",
+  "sources": {
+    "config.mjs": "examples/organized/config.mjs",
+    "agents/club-agent.mjs": "examples/organized/agents/club-agent.mjs",
+    "tools/club.mjs": "examples/organized/tools/club.mjs",
+    "services/club-service.mjs": "examples/organized/services/club-service.mjs",
+    "tests/club.test.mjs": "examples/organized/tests/club.test.mjs",
+    "implementation/execute.mjs": "execute.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "bootstrap.mjs",
+    "examples/organized/config.mjs",
+    "examples/organized/agents/club-agent.mjs",
+    "examples/organized/tools/club.mjs",
+    "examples/organized/services/club-service.mjs",
+    "examples/organized/tests/club.test.mjs"
+  ]
+}

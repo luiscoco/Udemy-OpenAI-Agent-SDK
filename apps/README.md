@@ -1,6 +1,6 @@
 # Agent Academy applications
 
-For the complete course, begin with the [course README](../README.md), [student setup guide](../docs/GETTING_STARTED.md), and [180-lesson curriculum](../docs/CURRICULUM.md). The shared runtime supports Prompts 2–200; the core Udemy course covers 1–180.
+For the complete course, begin with the [course README](../README.md), [student setup guide](../docs/GETTING_STARTED.md), and [180-lesson curriculum](../docs/CURRICULUM.md). All prompts now contain local executable src files and use lesson:1 through lesson:200; the core Udemy course covers 1–180.
 
 Local teaching applications for the implementation prompt series. Prompt 1 compares the four OpenAI developer products. Prompts 2–8 cover foundations, 9–16 cover agent definitions and instructions, 17–24 cover context and dependency injection, 25–32 cover structured and multimodal outputs, 33–40 cover model configuration and provider transports, 41–48 cover execution and results, 49–56 cover streaming and cancellation, 57–64 cover function tools, 65–72 cover tool execution and discovery, 73–80 cover hosted tools and retrieval, 81–88 cover MCP connections and lifecycle, and 89–94 cover handoffs and specialist ownership. The applications include interactive exercises, source explorers, execution evidence, knowledge checks, instructor guides, and recording views.
 

@@ -1,5 +1,11 @@
 # Prompt 56 — Web streaming
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/tools-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Expose agent events through an application SSE endpoint and handle client disconnection cleanly.
 
 Run from Windows Terminal with PowerShell.

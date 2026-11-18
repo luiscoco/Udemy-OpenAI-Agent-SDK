@@ -1,5 +1,11 @@
 # Prompt 72 — Programmatic tool calling
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/discovery-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Enable supported programmatic tool calling, restrict eligible tools, and aggregate several read-only results in generated JavaScript.
 
 Live mode uses hosted generated JavaScript. Classroom mode injects a fixed program and child calls, then executes a fixed aggregation expression over actual callback rows. Only the read tool permits programmatic callers.

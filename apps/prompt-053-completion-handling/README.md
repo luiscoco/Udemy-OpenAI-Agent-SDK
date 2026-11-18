@@ -1,5 +1,11 @@
 # Prompt 53 — Completion handling
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/streaming-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Wait for stream completion before reading final results, usage information, or persisted state.
 
 Run in Windows Terminal with PowerShell.

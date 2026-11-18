@@ -1,5 +1,11 @@
 # Prompt 43 — Run configuration
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/runtime-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Apply workflow-level configuration to several agents and explain which agent settings it overrides.
 
 Run from Windows Terminal with PowerShell.

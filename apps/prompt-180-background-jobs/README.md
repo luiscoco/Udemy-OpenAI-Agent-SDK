@@ -1,5 +1,11 @@
 # Prompt 180 — Background jobs
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/reliability.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Run agent work in a queue worker with job identifiers, cancellation, and idempotent result handling.
 
 ## Run in Windows Terminal

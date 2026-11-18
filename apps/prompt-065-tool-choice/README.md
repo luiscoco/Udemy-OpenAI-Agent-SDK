@@ -1,5 +1,11 @@
 # Prompt 65 — Tool choice
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/control-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Demonstrate automatic tool selection, required tool use, and forcing a specific tool where supported.
 
 Classroom model decisions are scripted. The actual SDK receives auto, required or a specific tool name. Inspect observed callbacks and tool-choice reset.

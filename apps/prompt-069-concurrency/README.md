@@ -1,5 +1,11 @@
 # Prompt 69 — Concurrency
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/control-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Compare model-side parallel tool calls with application-side execution concurrency and enforce an appropriate concurrency limit.
 
 Classroom call batches are scripted. Tool delays execute locally. Compare measured peak concurrency with the independent executor limit.

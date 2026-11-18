@@ -1,0 +1,21 @@
+{
+  "number": 6,
+  "title": "Agent loop",
+  "implementation": "execute.mjs",
+  "sources": {
+    "agents/club-agent.mjs": "examples/organized/agents/club-agent.mjs",
+    "tools/club.mjs": "examples/organized/tools/club.mjs",
+    "services/club-service.mjs": "examples/organized/services/club-service.mjs",
+    "implementation/execute.mjs": "execute.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "bootstrap.mjs",
+    "examples/organized/agents/club-agent.mjs",
+    "examples/organized/tools/club.mjs",
+    "examples/organized/services/club-service.mjs"
+  ]
+}

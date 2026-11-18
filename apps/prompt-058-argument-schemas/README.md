@@ -1,5 +1,11 @@
 # Prompt 58 — Argument schemas
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/tools-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Define a tool with constrained arguments and demonstrate how invalid arguments are handled.
 
 Run from Windows Terminal with PowerShell.

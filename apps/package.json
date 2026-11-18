@@ -240,7 +240,8 @@
     "videos:record": "node foundations-runtime/video/record-applications.mjs 1 180",
     "videos:playback-check": "node foundations-runtime/video/preview-recorded.mjs 1 2 5 57 95 127 153 180",
     "videos:progress": "node foundations-runtime/video/revision-progress.mjs",
-    "course:curriculum": "node foundations-runtime/scripts/build-course-curriculum.mjs"
+    "course:curriculum": "node foundations-runtime/scripts/build-course-curriculum.mjs",
+    "lesson:1": "node foundations-runtime/launch.mjs 1"
   },
   "dependencies": {
     "@openai/agents": "0.21.0",
@@ -248,7 +249,8 @@
     "ws": "8.22.2",
     "zod": "4.6.7",
     "@modelcontextprotocol/client": "2.4.0",
-    "@openai/agents-core": "0.21.0"
+    "@openai/agents-core": "0.21.0",
+    "@openai/codex-sdk": "0.167.2"
   },
   "devDependencies": {
     "@playwright/test": "1.65.0"

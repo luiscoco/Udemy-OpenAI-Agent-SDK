@@ -1,5 +1,11 @@
 # Prompt 74 — File search
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/discovery-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Connect a document collection through a vector store and answer questions using the hosted file-search tool.
 
 Classroom retrieval is a provider fixture. For live retrieval, run setup:documents from this app folder, put its vector-store ID in the app .env, then restart. Uploaded documents live in an OpenAI-hosted vector store.

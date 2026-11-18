@@ -1,5 +1,11 @@
 # Prompt 192 — Release coverage audit
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/advanced.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Compare my installed SDK against its current official documentation and release notes, then add exercises for uncovered public capabilities.
 
 ## Run in Windows Terminal

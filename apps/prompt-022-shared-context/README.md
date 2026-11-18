@@ -1,5 +1,11 @@
 # Prompt 022 — Shared context
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/context-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Demonstrate how context behaves across handoffs and nested agent calls, including shared mutable state.
 
 Compare real SDK handoffs, nested shared context, and nested copied context.

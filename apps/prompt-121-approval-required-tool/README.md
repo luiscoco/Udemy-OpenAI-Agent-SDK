@@ -1,5 +1,11 @@
 # Prompt 121 — Approval-required tool
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/approvals.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Create a tool that pauses for approval before making a change to an external system.
 
 ## Run in Windows Terminal

@@ -1,5 +1,11 @@
 # Prompt 75 — Retrieval controls
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/hosted-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Apply supported file-search filters and result limits, and inspect retrieved evidence and citations.
 
 Classroom search results are provider fixtures. Live mode requires a vector store whose files have department attributes. Compare the actual filter, result limit, returned evidence and citations.

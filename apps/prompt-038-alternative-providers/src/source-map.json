@@ -1,0 +1,17 @@
+{
+  "number": 38,
+  "title": "Alternative providers",
+  "implementation": "runtime-execution.mjs",
+  "sources": {
+    "runtime/local-provider.mjs": "examples/runtime/local-provider.mjs",
+    "runtime/runtime-execution.mjs": "runtime-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "runtime-execution.mjs",
+    "examples/runtime/local-provider.mjs"
+  ]
+}

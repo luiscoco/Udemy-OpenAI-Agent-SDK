@@ -1,5 +1,11 @@
 # Prompt 135 — Artifacts and previews
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sandboxes.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Retrieve generated artifacts and expose a preview port using the selected sandbox provider.
 
 ## Run in Windows Terminal

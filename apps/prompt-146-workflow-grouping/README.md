@@ -1,5 +1,11 @@
 # Prompt 146 — Workflow grouping
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/tracing.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Group several related agent runs into one trace with useful workflow and conversation metadata.
 
 ## Run in Windows Terminal

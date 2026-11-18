@@ -1,5 +1,11 @@
 # Prompt 200 — Production capstone
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/projects.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Take one completed project through evaluation, deployment, monitoring, failure recovery, and a documented capability-and-limitations review.
 
 ## Run in Windows Terminal

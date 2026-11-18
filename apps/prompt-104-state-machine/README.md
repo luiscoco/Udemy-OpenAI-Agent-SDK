@@ -1,5 +1,11 @@
 # Prompt 104 — State machine
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/workflows.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Implement an agent workflow as explicit application states with validated transitions and recoverable failure states.
 
 ## Run in Windows Terminal

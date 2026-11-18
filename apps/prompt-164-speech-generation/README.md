@@ -1,5 +1,11 @@
 # Prompt 164 — Speech generation
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/voice.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Configure supported voice and speech-output settings and measure time to first audio.
 
 ## Run in Windows Terminal

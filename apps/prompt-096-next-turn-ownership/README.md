@@ -1,5 +1,11 @@
 # Prompt 96 — Next-turn ownership
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/workflows.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Continue the next user turn with the last specialist when that agent should remain responsible.
 
 ## Run in Windows Terminal

@@ -1,5 +1,11 @@
 # Prompt 173 — Streaming and runtime tests
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/evaluation.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Use supported test doubles to verify streaming, sandbox, realtime, or voice behavior relevant to this application.
 
 ## Run in Windows Terminal

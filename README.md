@@ -75,19 +75,17 @@ To choose another shared-runtime lesson:
 npm run lesson:9
 ```
 
-Open **http://127.0.0.1:3109**. The launch scripts run from `lesson:2` through `lesson:200`; the core course covers **1–180**. The default port is **3100 + the prompt number**.
+Open **http://127.0.0.1:3109**. The launch scripts run from `lesson:1` through `lesson:200`; the core course covers **1–180**. The default port is **3100 + the prompt number**.
 
-### Prompt 1 has its own application
+### Run Prompt 1 the same way
 
-From the repository root:
+From `apps`, after the shared installation:
 
 ```powershell
-Set-Location .\apps\prompt-001-product-map
-npm ci
-npm start
+npm run lesson:1
 ```
 
-Open **http://127.0.0.1:3101**.
+Open **http://127.0.0.1:3101**. Every prompt folder uses `server.mjs`, `src/application.mjs`, and `SOURCE.md`. Running `npm start` inside a prompt folder is also supported after the shared install.
 
 For Python-dependent lessons, optional live configuration, port changes, and troubleshooting, follow the [student setup guide](docs/GETTING_STARTED.md).
 
@@ -123,14 +121,30 @@ Applications **181–200** are also included as supplementary reference exercise
 
 Keep a small learning journal: **input → prediction → observed result → supporting evidence**. This gives you a useful record of what you have understood and what you want to investigate next.
 
+## Where is the practical application source?
+
+**Every prompt folder contains its executable lesson implementation.** Open its `src` directory or the prominently linked `SOURCE.md` guide. The `server.mjs` file starts the shared HTTP/UI framework with that local implementation.
+
+For example, [Prompt 9 source](apps/prompt-009-agent-identity/SOURCE.md) includes the [identity execution](apps/prompt-009-agent-identity/src/identity-lesson.mjs), [specialist agent](apps/prompt-009-agent-identity/src/examples/identity/specialist-agent.mjs), and [identity contract](apps/prompt-009-agent-identity/src/public/identity.js). [Prompt 180 source](apps/prompt-180-background-jobs/SOURCE.md) includes its [background-job implementation](apps/prompt-180-background-jobs/src/course/reliability.mjs).
+
+Edit the local `src` files and restart the application. Both `npm start` in that folder and `npm run lesson:NUMBER` from `apps` use the local source. The source explorer displays those same files.
+
+Prompt 1 has its own [local UI](apps/prompt-001-product-map/src/public/) and [source guide](apps/prompt-001-product-map/SOURCE.md), using the same entry-point layout.
+
+The common [HTML](apps/foundations-runtime/public/index.html), [browser UI](apps/foundations-runtime/public/app.js), [styles](apps/foundations-runtime/public/styles.css), and infrastructure helpers remain shared and are also included in this repository. Keep `foundations-runtime` and the shared dependencies alongside the prompt folders; an individual folder is not a standalone distribution. Some local modules contain related scenarios; the entry point binds the selected prompt number.
+
+[Browse the source index for every lesson](docs/SOURCE_CODE.md).
+
 ## Repository layout
 
 ```text
 apps/
   package.json                  Shared launch scripts and pinned dependencies
   foundations-runtime/          Shared server, examples, course modules, and tests
-  prompt-001-product-map/       Standalone Prompt 1 application
+  prompt-001-product-map/       Prompt 1 with the same src/entry-point layout
   prompt-002-.../                Per-prompt launchers and documentation
+    src/                       Executable lesson logic and example source
+    SOURCE.md                  Direct links to the implementation
   ...
   prompt-200-.../                Supplementary application
 docs/

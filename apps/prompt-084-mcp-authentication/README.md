@@ -1,5 +1,11 @@
 # Prompt 84 — MCP authentication
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/mcp-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Authenticate to a private MCP server while keeping credentials outside model-visible content.
 
 Each exercise creates a private loopback MCP server with an ephemeral bearer credential. The credential stays in the transport. Invalid or missing headers are rejected before tool discovery.

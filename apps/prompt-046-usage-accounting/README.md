@@ -1,5 +1,11 @@
 # Prompt 46 — Usage accounting
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/streaming-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Collect available request counts and token usage for a run and its nested work.
 
 Run in Windows Terminal with PowerShell.

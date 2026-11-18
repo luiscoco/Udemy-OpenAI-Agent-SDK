@@ -1,5 +1,11 @@
 # Prompt 159 — Realtime events
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/realtime.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Display transcripts, session status, tool progress, and conversation updates using documented realtime events.
 
 ## Run in Windows Terminal

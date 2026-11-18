@@ -1,5 +1,11 @@
 # Prompt 125 — Nested approvals
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/approvals.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Demonstrate an approval interruption inside a specialist tool-agent and after a handoff.
 
 ## Run in Windows Terminal

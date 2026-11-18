@@ -1,5 +1,11 @@
 # Prompt 120 — Streaming validation
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/guardrails.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Design output validation for streaming and explain what must be buffered before being shown to users.
 
 ## Run in Windows Terminal

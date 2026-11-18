@@ -1,5 +1,11 @@
 # Prompt 59 — Tool descriptions
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/tools-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Improve tool names, descriptions, and parameter documentation so the agent selects the correct capability.
 
 Run from Windows Terminal with PowerShell.

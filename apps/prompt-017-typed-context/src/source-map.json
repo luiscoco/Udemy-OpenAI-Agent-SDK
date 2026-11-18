@@ -1,0 +1,20 @@
+{
+  "number": 17,
+  "title": "Typed context",
+  "implementation": "context-execution.mjs",
+  "sources": {
+    "context/typed-context.ts": "examples/context/typed-context.ts",
+    "implementation/context-execution.mjs": "context-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {
+    "context-lessons.js": "public/context-lessons.js"
+  },
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "context-execution.mjs",
+    "examples/context/typed-context.ts",
+    "public/context-lessons.js"
+  ]
+}

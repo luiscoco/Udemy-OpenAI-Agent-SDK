@@ -1,0 +1,17 @@
+{
+  "number": 56,
+  "title": "Web streaming",
+  "implementation": "tools-execution.mjs",
+  "sources": {
+    "tools/sse-client-demo.mjs": "examples/tools/sse-client-demo.mjs",
+    "tools/tools-execution.mjs": "tools-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "tools-execution.mjs",
+    "examples/tools/sse-client-demo.mjs"
+  ]
+}

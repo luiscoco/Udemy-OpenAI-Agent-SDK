@@ -1,5 +1,11 @@
 # Prompt 183 — Deployment
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/reliability.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Containerize the application with persistent storage, health checks, configuration management, and graceful shutdown.
 
 ## Run in Windows Terminal

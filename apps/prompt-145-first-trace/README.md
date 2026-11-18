@@ -1,5 +1,11 @@
 # Prompt 145 — First trace
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/tracing.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Run an agent and inspect its trace to explain the sequence of model and tool activity.
 
 ## Run in Windows Terminal

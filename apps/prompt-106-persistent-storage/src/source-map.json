@@ -1,0 +1,20 @@
+{
+  "number": 106,
+  "title": "Persistent storage",
+  "implementation": "course/sessions.mjs",
+  "sources": {
+    "course/sessions.mjs": "course/sessions.mjs",
+    "course/common.mjs": "course/common.mjs",
+    "course/storage.mjs": "course/storage.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "course/sessions.mjs",
+    "course/index.mjs",
+    "course/common.mjs",
+    "course/storage.mjs"
+  ]
+}

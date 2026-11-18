@@ -1,0 +1,17 @@
+{
+  "number": 76,
+  "title": "Custom RAG",
+  "implementation": "hosted-execution.mjs",
+  "sources": {
+    "hosted/hosted-execution.mjs": "hosted-execution.mjs",
+    "hosted/retrieval-database.mjs": "examples/hosted/retrieval-database.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "hosted-execution.mjs",
+    "examples/hosted/retrieval-database.mjs"
+  ]
+}

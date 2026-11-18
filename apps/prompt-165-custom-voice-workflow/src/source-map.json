@@ -1,0 +1,19 @@
+{
+  "number": 165,
+  "title": "Custom voice workflow",
+  "implementation": "course/voice.mjs",
+  "sources": {
+    "course/voice_pipeline.py": "course/voice_pipeline.py",
+    "course/voice.mjs": "course/voice.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "course/voice.mjs",
+    "course/index.mjs",
+    "python-runtime.mjs",
+    "course/voice_pipeline.py"
+  ]
+}

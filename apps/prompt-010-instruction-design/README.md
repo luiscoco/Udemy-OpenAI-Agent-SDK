@@ -1,5 +1,11 @@
 # Prompt 010 — Instruction design
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/definition-lessons.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Write agent instructions specifying its goal, available information, permitted actions, and completion criteria.
 
 Build instructions around a goal, available facts, permitted actions, and completion criteria.

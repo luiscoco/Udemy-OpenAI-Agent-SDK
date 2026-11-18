@@ -82,7 +82,7 @@ test("every shared lesson source has a supported language and can be highlighted
 test("standalone prompt 1 ships the same highlighter and teaching packs contain offline colors", async () => {
   const shared = new URL("../public/syntax/", import.meta.url);
   const standalone = new URL(
-    "../../prompt-001-product-map/public/syntax/",
+    "../../prompt-001-product-map/src/public/syntax/",
     import.meta.url,
   );
   async function compare(directory = "") {

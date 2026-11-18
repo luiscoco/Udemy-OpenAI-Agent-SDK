@@ -1,5 +1,11 @@
 # Prompt 112 — History selection
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sessions.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Limit or summarize conversation history while preserving valid tool-call relationships and necessary task context.
 
 ## Run in Windows Terminal

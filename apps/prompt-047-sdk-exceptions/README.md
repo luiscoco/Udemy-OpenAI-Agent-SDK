@@ -1,5 +1,11 @@
 # Prompt 47 — SDK exceptions
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/streaming-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Handle the installed SDK’s configuration, model-behavior, timeout, and turn-limit exceptions with useful application errors.
 
 Run in Windows Terminal with PowerShell.

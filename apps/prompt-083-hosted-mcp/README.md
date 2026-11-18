@@ -1,5 +1,11 @@
 # Prompt 83 — Hosted MCP
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/mcp-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Configure hosted MCP and compare its execution path with an SDK-managed MCP connection.
 
 The SDK path uses the real loopback MCP server. The hosted classroom path injects provider MCP results. Live hosted mode requires MCP_SERVER_URL pointing to a publicly reachable timetable server.

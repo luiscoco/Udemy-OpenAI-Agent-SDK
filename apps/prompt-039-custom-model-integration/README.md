@@ -1,5 +1,11 @@
 # Prompt 39 — Custom model integration
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/runtime-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Implement the SDK’s model or provider interface for a controlled backend, following the installed version’s contract.
 
 Run from Windows Terminal with PowerShell.

@@ -1,5 +1,11 @@
 # Prompt 005 — First agent
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/execute.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 An interactive local teaching application in the foundations series.
 
 ## Run in Windows Terminal

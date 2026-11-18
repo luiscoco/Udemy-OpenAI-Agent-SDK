@@ -1,0 +1,20 @@
+{
+  "number": 5,
+  "title": "First agent",
+  "implementation": "execute.mjs",
+  "sources": {
+    "first-agent.ts": "examples/first-agent.ts",
+    "first_agent.py": "examples/first_agent.py",
+    "implementation/execute.mjs": "execute.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "bootstrap.mjs",
+    "python-runtime.mjs",
+    "examples/first-agent.ts",
+    "examples/first_agent.py"
+  ]
+}

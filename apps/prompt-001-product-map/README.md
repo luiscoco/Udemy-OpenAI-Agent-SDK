@@ -1,6 +1,8 @@
 # Prompt 001 — Product Map Lab
 
-A runnable classroom application for this exercise from the source document.
+**[Practical source guide](SOURCE.md)** · [Application](src/application.mjs) · [Adapters](src/adapters/) · [UI](src/public/)
+
+A runnable classroom application with the same `server.mjs` → `src/application.mjs` layout as the other course apps.
 
 > Explain the OpenAI Agents SDK, Responses API, Agents API, and Codex SDK, and show when each is appropriate.
 
@@ -8,15 +10,15 @@ Students select a product, follow its execution diagram, inspect the matching se
 
 ## Start the application
 
-Use Node.js 22.16 or later. Node.js 24 is recommended.
+Use Node.js 24 or later. Install the shared dependencies once from the repository root, then run Prompt 1:
 
 ```powershell
-cd ".\apps\prompt-001-product-map"
+cd ".\apps"
 npm ci
-npm start
+npm run lesson:1
 ```
 
-Open **http://127.0.0.1:3101**. Classroom mode runs immediately using local scripted examples. You can also run `npm start` before installing dependencies when you only need classroom mode.
+Open **http://127.0.0.1:3101**. Classroom mode runs immediately using local scripted examples. After the shared install, you can also run `npm start` from this application folder. Its own `npm ci` remains supported for a separate installation.
 
 `npm run dev` restarts the backend when its source changes. Reload the browser after editing frontend files. Set `PORT` in `.env` to use another local port.
 
@@ -36,7 +38,7 @@ Open **http://127.0.0.1:3101**. Classroom mode runs immediately using local scri
 
 Classroom mode is explicitly labeled as a simulation. Model responses, hosted execution, and Codex's explanation use scripted teaching fixtures. The order data and repository source shown as local evidence are read by the application. This makes the walkthrough repeatable during class and recordings.
 
-Live mode runs the actual installed packages through the adapters in `adapters/`. The code panel is extracted from those files, and **Full source** opens the implementation being used. Progress represents application stages and observed runtime events. The live model can choose a different path from the classroom fixture.
+Live mode runs the actual installed packages through the adapters in `src/adapters/`. The code panel is extracted from those files, and **Full source** opens the implementation being used. Progress represents application stages and observed runtime events. The live model can choose a different path from the classroom fixture.
 
 | Product       | Live example                                                                | Server configuration                                           |
 | ------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------- |
@@ -47,7 +49,7 @@ Live mode runs the actual installed packages through the adapters in `adapters/`
 
 Copy `.env.example` to `.env`, configure the relevant values, and restart the server. `OPENAI_MODEL` selects the Responses/Agents model. `CODEX_MODEL` can override the Codex model. Credentials stay on the server. Live requests use your configured account and can incur API or hosted runtime charges.
 
-The Codex example uses `fixtures/robotics-club` as its workspace. It requests an explanation with read-only filesystem access. The fixture can also be checked directly with `node --test fixtures/robotics-club/tests/fees.test.mjs`.
+The Codex example uses `src/fixtures/robotics-club` as its workspace. It requests an explanation with read-only filesystem access. The fixture can also be checked directly with `node --test src/fixtures/robotics-club/tests/fees.test.mjs`.
 
 Live managed sessions appear in **Hosted sessions created by this server** below the lab. Their IDs remain available across page refreshes and product switches while the server is running. Delete them there when finished. Save any session IDs you need before restarting the server, which clears the local ownership registry. The hosted service preserves sessions independently. After a disconnect, inspect the existing session before starting another task. Stopping the local request signals cancellation of the request stream, while hosted work can require service-side inspection or cleanup.
 
@@ -73,11 +75,12 @@ Backend checks exercise all four classroom runs, input validation, credential re
 ## Source layout
 
 ```text
-server.mjs                 Local HTTP server and execution endpoints
-public/                    Browser interface and lesson content
-adapters/                  Executable integrations for the four products
-lib/demo.mjs               Classroom simulation and sample order lookup
-fixtures/robotics-club/    Bounded repository used by the Codex example
+server.mjs                 Small application launcher
+src/application.mjs        Local HTTP server and execution endpoints
+src/public/                Browser interface and lesson content
+src/adapters/              Executable integrations for the four products
+src/lib/demo.mjs           Classroom simulation and sample order lookup
+src/fixtures/robotics-club/ Bounded repository used by the Codex example
 scripts/record-lesson.mjs  Automated lesson recording
 tests/                     Backend and Playwright checks
 ```

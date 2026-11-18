@@ -1,0 +1,17 @@
+{
+  "number": 74,
+  "title": "File search",
+  "implementation": "discovery-execution.mjs",
+  "sources": {
+    "control/discovery-execution.mjs": "discovery-execution.mjs",
+    "control/setup-documents.mjs": "scripts/setup-documents.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "discovery-execution.mjs",
+    "scripts/setup-documents.mjs"
+  ]
+}

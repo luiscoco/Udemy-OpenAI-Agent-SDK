@@ -83,6 +83,8 @@ export function createApp({
   number = 2,
   env = process.env,
   execute = executeLesson,
+  sources = lessonSources,
+  publicOverrides = {},
   executionTimeoutMs = 60000,
 } = {}) {
   if(!Number.isInteger(executionTimeoutMs)||executionTimeoutMs<1000||executionTimeoutMs>300000)throw new Error('Choose an execution timeout from 1000 through 300000 milliseconds.');
@@ -126,7 +128,7 @@ export function createApp({
           : mime,
       });
       return response.end(
-        await readFile(new URL(`./public/${filename}`, import.meta.url)),
+        await readFile(publicOverrides[filename] ?? new URL(`./public/${filename}`, import.meta.url)),
       );
     }
     if (request.method === "GET" && url.pathname === "/favicon.ico") {
@@ -180,7 +182,7 @@ export function createApp({
         return json(response, 200, {
           lesson,
           lessons,
-          sources: await lessonSources(lesson.number),
+          sources: await sources(lesson.number),
           releases,
           capabilities,
           configured: Boolean(env.OPENAI_API_KEY?.trim()),
@@ -204,14 +206,14 @@ export function createApp({
         return response.end(archive);
       }
       if (request.method === "GET" && url.pathname === "/api/source") {
-        const sources = await lessonSources(lesson.number);
+        const selectedSources = await sources(lesson.number);
         const name = url.searchParams.get("name");
-        if (!Object.hasOwn(sources, name))
+        if (!Object.hasOwn(selectedSources, name))
           return json(response, 404, { error: "Source file unavailable." });
         response.writeHead(200, {
           "Content-Type": "text/plain; charset=utf-8",
         });
-        return response.end(sources[name]);
+        return response.end(selectedSources[name]);
       }
       if (
         request.method === "POST" &&
@@ -281,10 +283,10 @@ export function createApp({
   });
 }
 
-export function startLesson(number) {
+export function startLesson(number, options = {}) {
   const lesson = getLesson(number);
   const port = Number(process.env.PORT || lesson.port);
-  const server = createApp({ number });
+  const server = createApp({ number, ...options });
   server.on("error", (error) => {
     console.error(
       error.code === "EADDRINUSE"

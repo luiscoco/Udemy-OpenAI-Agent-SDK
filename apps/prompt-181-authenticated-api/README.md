@@ -1,5 +1,11 @@
 # Prompt 181 — Authenticated API
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/reliability.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Expose an authenticated backend endpoint with tenant isolation, request validation, and rate limits.
 
 ## Run in Windows Terminal

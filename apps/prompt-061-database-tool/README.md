@@ -1,5 +1,11 @@
 # Prompt 61 — Database tool
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/tools-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Create a read-only database tool using parameterized queries and authenticated tenant context.
 
 Run from Windows Terminal with PowerShell.

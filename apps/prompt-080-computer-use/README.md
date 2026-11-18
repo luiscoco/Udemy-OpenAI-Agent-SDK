@@ -1,5 +1,11 @@
 # Prompt 80 — Computer use
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/hosted-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Connect a computer-use agent to an isolated browser or desktop runtime and verify actions through screenshots.
 
 The SDK dispatches actions to a real isolated Playwright context. The bundled counter page has all network routes blocked. Classroom decisions are scripted. Saved screenshots and the actual counter verify the outcome.

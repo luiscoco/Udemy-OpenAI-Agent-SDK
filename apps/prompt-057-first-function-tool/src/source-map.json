@@ -1,0 +1,17 @@
+{
+  "number": 57,
+  "title": "First function tool",
+  "implementation": "tools-execution.mjs",
+  "sources": {
+    "tools/calculator.ts": "examples/tools/calculator.ts",
+    "tools/tools-execution.mjs": "tools-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "tools-execution.mjs",
+    "examples/tools/calculator.ts"
+  ]
+}

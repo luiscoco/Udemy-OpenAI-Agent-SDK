@@ -1,5 +1,11 @@
 # Prompt 151 — Operational metrics
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/tracing.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Report latency, token usage, tool failures, handoff frequency, and estimated cost using observable run data.
 
 ## Run in Windows Terminal

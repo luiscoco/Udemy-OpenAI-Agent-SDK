@@ -1,0 +1,17 @@
+{
+  "number": 54,
+  "title": "Cancellation",
+  "implementation": "streaming-execution.mjs",
+  "sources": {
+    "streaming/streaming-execution.mjs": "streaming-execution.mjs",
+    "streaming/classroom-model.ts": "examples/streaming/classroom-model.ts",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "streaming-execution.mjs",
+    "examples/streaming/classroom-model.ts"
+  ]
+}

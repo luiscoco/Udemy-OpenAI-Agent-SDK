@@ -1,5 +1,11 @@
 # Prompt 57 — First function tool
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/tools-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Create a calculator tool and let the agent decide when to call it.
 
 Run from Windows Terminal with PowerShell.

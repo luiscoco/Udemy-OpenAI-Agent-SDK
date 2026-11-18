@@ -1,5 +1,11 @@
 # Prompt 93 — Handoff callbacks
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/handoff-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Run a callback when a handoff occurs to record application-level routing information.
 
 The callback records the application request ID and actual destination. The lifecycle trace shows onHandoff before the receiving specialist starts. Every exercise uses fresh request-local state.

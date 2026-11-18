@@ -1,5 +1,11 @@
 # Prompt 85 — Tool filtering
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/mcp-control-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Expose only approved MCP tools using supported static or context-dependent filters.
 
 The SDK applies a static allowlist or a filter based on the simulated application role. Inspect actual model tool definitions. The fixture separately checks permission before returning budget data.

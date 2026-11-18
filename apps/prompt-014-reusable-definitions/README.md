@@ -1,5 +1,11 @@
 # Prompt 014 — Reusable definitions
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/definition-lessons.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Create reusable agent definitions and demonstrate the SDK’s supported cloning or customization mechanism.
 
 Use the actual SDK clone method and inspect the base and customized definitions.

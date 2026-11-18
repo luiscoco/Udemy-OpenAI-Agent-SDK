@@ -1,5 +1,11 @@
 # Prompt 68 — Conditional availability
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/control-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Enable tools dynamically from application context while retaining authorization checks inside their implementations.
 
 Profiles simulate application context. The revoked scenario exposes the edit capability while its implementation denies the change.

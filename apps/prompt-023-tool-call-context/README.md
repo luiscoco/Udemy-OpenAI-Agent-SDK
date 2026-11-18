@@ -1,5 +1,11 @@
 # Prompt 023 — Tool-call context
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/context-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Inspect the supported tool-call context fields, including call identity and arguments, without logging sensitive values.
 
 Read the installed SDK's ToolCallDetails and log a small allowlist of metadata.

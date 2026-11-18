@@ -1,5 +1,11 @@
 # Prompt 195 — Research assistant
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/projects.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Build a research assistant that searches sources, delegates independent research tasks, compares findings, and produces a cited report.
 
 ## Run in Windows Terminal

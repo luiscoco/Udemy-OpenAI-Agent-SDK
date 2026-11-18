@@ -1,5 +1,11 @@
 # Prompt 021 — Personalization
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/context-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Use context to personalize language, timezone, and response detail without exposing unnecessary user data.
 
 Convert a workshop time and adapt language and detail using focused instructions.

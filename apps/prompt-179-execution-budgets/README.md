@@ -1,5 +1,11 @@
 # Prompt 179 — Execution budgets
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/reliability.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Enforce application budgets for time, turns, tool calls, and spending, distinguishing estimates from hard limits.
 
 ## Run in Windows Terminal

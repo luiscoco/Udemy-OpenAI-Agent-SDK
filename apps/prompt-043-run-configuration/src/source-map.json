@@ -1,0 +1,17 @@
+{
+  "number": 43,
+  "title": "Run configuration",
+  "implementation": "runtime-execution.mjs",
+  "sources": {
+    "runtime/runtime-execution.mjs": "runtime-execution.mjs",
+    "runtime/controlled-model.ts": "examples/runtime/controlled-model.ts",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "runtime-execution.mjs",
+    "examples/runtime/controlled-model.ts"
+  ]
+}

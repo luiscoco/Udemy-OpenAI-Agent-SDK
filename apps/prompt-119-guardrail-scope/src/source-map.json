@@ -1,0 +1,20 @@
+{
+  "number": 119,
+  "title": "Guardrail scope",
+  "implementation": "course/guardrails.mjs",
+  "sources": {
+    "course/guardrails.mjs": "course/guardrails.mjs",
+    "course/common.mjs": "course/common.mjs",
+    "course/storage.mjs": "course/storage.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "course/guardrails.mjs",
+    "course/index.mjs",
+    "course/common.mjs",
+    "course/storage.mjs"
+  ]
+}

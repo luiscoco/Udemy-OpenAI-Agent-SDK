@@ -1,0 +1,22 @@
+{
+  "number": 20,
+  "title": "Authorization",
+  "implementation": "context-execution.mjs",
+  "sources": {
+    "context/authorized-tool.mjs": "examples/context/authorized-tool.mjs",
+    "context/services.mjs": "examples/context/services.mjs",
+    "implementation/context-execution.mjs": "context-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {
+    "context-lessons.js": "public/context-lessons.js"
+  },
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "context-execution.mjs",
+    "examples/context/authorized-tool.mjs",
+    "examples/context/services.mjs",
+    "public/context-lessons.js"
+  ]
+}

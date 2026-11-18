@@ -1,5 +1,11 @@
 # Prompt 019 — Context visibility
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/context-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Demonstrate which context values remain local and which become model-visible through instructions or tool results.
 
 Capture actual requests to a local model adapter and inspect explicit visibility channels.

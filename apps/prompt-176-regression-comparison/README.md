@@ -1,5 +1,11 @@
 # Prompt 176 — Regression comparison
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/evaluation.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Compare prompt or model versions on task success, latency, cost, and failure rate before adopting a change.
 
 ## Run in Windows Terminal

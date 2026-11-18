@@ -1,0 +1,19 @@
+{
+  "number": 81,
+  "title": "Local MCP",
+  "implementation": "mcp-execution.mjs",
+  "sources": {
+    "mcp/mcp-execution.mjs": "mcp-execution.mjs",
+    "mcp/stdio-server.mjs": "examples/mcp/stdio-server.mjs",
+    "mcp/fixture-protocol.mjs": "examples/mcp/fixture-protocol.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "mcp-execution.mjs",
+    "examples/mcp/stdio-server.mjs",
+    "examples/mcp/fixture-protocol.mjs"
+  ]
+}

@@ -1,5 +1,11 @@
 # Prompt 178 — Timeout policy
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/reliability.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Set model, tool, and overall request timeouts, and verify cleanup when each deadline expires.
 
 ## Run in Windows Terminal

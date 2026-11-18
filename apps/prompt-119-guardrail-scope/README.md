@@ -1,5 +1,11 @@
 # Prompt 119 — Guardrail scope
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/guardrails.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Demonstrate exactly which guardrails run before handoffs, after handoffs, and around nested tool-agent calls.
 
 ## Run in Windows Terminal

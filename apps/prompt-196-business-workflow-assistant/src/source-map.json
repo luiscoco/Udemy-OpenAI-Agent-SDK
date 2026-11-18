@@ -1,0 +1,20 @@
+{
+  "number": 196,
+  "title": "Business-workflow assistant",
+  "implementation": "course/projects.mjs",
+  "sources": {
+    "course/projects.mjs": "course/projects.mjs",
+    "course/common.mjs": "course/common.mjs",
+    "course/storage.mjs": "course/storage.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "course/projects.mjs",
+    "course/index.mjs",
+    "course/common.mjs",
+    "course/storage.mjs"
+  ]
+}

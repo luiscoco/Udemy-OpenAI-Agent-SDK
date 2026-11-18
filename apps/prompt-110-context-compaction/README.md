@@ -1,5 +1,11 @@
 # Prompt 110 — Context compaction
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sessions.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Add supported compaction or context management and verify that important task state survives.
 
 ## Run in Windows Terminal

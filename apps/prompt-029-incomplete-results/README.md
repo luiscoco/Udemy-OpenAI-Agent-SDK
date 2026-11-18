@@ -1,5 +1,11 @@
 # Prompt 29 — Incomplete results
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/structured-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Handle refusals, interrupted generation, and incomplete structured results without treating them as successful output.
 
 From Windows PowerShell

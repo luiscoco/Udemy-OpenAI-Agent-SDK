@@ -1,0 +1,15 @@
+{
+  "number": 70,
+  "title": "Repeated-call prevention",
+  "implementation": "control-execution.mjs",
+  "sources": {
+    "control/control-execution.mjs": "control-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "control-execution.mjs"
+  ]
+}

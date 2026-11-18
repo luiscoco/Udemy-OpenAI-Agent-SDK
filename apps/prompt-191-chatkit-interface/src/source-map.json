@@ -1,0 +1,23 @@
+{
+  "number": 191,
+  "title": "ChatKit interface",
+  "implementation": "course/advanced.mjs",
+  "sources": {
+    "course/chatkit_worker.py": "course/chatkit_worker.py",
+    "course/chatkit_http.py": "course/chatkit_http.py",
+    "course/chatkit-client.js": "course/chatkit-client.js",
+    "course/advanced.mjs": "course/advanced.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "course/advanced.mjs",
+    "course/index.mjs",
+    "python-runtime.mjs",
+    "course/chatkit_worker.py",
+    "course/chatkit_http.py",
+    "course/chatkit-client.js"
+  ]
+}

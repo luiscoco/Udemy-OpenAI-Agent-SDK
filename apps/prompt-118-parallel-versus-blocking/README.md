@@ -1,5 +1,11 @@
 # Prompt 118 — Parallel versus blocking
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/guardrails.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Compare parallel and blocking input guardrails, showing when speculative work can begin.
 
 ## Run in Windows Terminal

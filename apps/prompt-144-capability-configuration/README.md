@@ -1,5 +1,11 @@
 # Prompt 144 — Capability configuration
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sandboxes.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Customize the capability list while preserving required defaults, dependencies, and cleanup behavior.
 
 ## Run in Windows Terminal

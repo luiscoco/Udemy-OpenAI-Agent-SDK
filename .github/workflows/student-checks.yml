@@ -21,8 +21,11 @@ jobs:
         run: npm ci
       - name: Check classroom instructions, identities, and syntax highlighting
         working-directory: apps
-        run: node --test foundations-runtime/tests/syntax.test.mjs foundations-runtime/tests/identity.test.mjs foundations-runtime/tests/definitions.test.mjs
+        run: node --test foundations-runtime/tests/syntax.test.mjs foundations-runtime/tests/identity.test.mjs foundations-runtime/tests/definitions.test.mjs foundations-runtime/tests/local-source.test.mjs
       - name: Check curriculum metadata
         run: node apps/foundations-runtime/scripts/build-course-curriculum.mjs
+      - name: Check Prompt 1 behavior after source-layout changes
+        working-directory: apps
+        run: node --test prompt-001-product-map/tests/server.test.mjs
       - name: Ensure the committed curriculum matches its source
         run: git diff --exit-code -- docs/CURRICULUM.md

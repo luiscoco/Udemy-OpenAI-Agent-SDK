@@ -1,0 +1,22 @@
+{
+  "number": 21,
+  "title": "Personalization",
+  "implementation": "context-execution.mjs",
+  "sources": {
+    "context/personalization.mjs": "examples/context/personalization.mjs",
+    "context/typed-context.ts": "examples/context/typed-context.ts",
+    "implementation/context-execution.mjs": "context-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {
+    "context-lessons.js": "public/context-lessons.js"
+  },
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "context-execution.mjs",
+    "examples/context/personalization.mjs",
+    "examples/context/typed-context.ts",
+    "public/context-lessons.js"
+  ]
+}

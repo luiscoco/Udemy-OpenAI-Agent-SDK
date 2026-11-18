@@ -1,5 +1,11 @@
 # Prompt 185 — Encrypted sessions
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/advanced.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Implement session encryption and retention using a supported backend or an explicit application-level storage wrapper.
 
 ## Run in Windows Terminal

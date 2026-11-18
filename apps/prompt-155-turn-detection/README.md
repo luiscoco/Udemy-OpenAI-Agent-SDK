@@ -1,5 +1,11 @@
 # Prompt 155 — Turn detection
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/realtime.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Compare server VAD, semantic VAD, and manual turn control for supported realtime models.
 
 ## Run in Windows Terminal

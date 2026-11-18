@@ -1,0 +1,19 @@
+{
+  "number": 85,
+  "title": "Tool filtering",
+  "implementation": "mcp-control-execution.mjs",
+  "sources": {
+    "mcp/mcp-control-execution.mjs": "mcp-control-execution.mjs",
+    "mcp/advanced-protocol.mjs": "examples/mcp/advanced-protocol.mjs",
+    "mcp/http-server.mjs": "examples/mcp/http-server.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "mcp-control-execution.mjs",
+    "examples/mcp/advanced-protocol.mjs",
+    "examples/mcp/http-server.mjs"
+  ]
+}

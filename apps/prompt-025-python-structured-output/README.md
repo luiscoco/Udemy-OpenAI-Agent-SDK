@@ -1,5 +1,11 @@
 # Prompt 25 — Python structured output
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/structured-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Create a Python agent that returns a validated Pydantic object instead of unrestricted text.
 
 From Windows PowerShell

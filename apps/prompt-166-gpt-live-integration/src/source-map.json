@@ -1,0 +1,22 @@
+{
+  "number": 166,
+  "title": "GPT-Live integration",
+  "implementation": "course/gpt-live.mjs",
+  "sources": {
+    "course/gpt-live.mjs": "course/gpt-live.mjs",
+    "course/realtime.mjs": "course/realtime.mjs",
+    "course/common.mjs": "course/common.mjs",
+    "course/storage.mjs": "course/storage.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "course/gpt-live.mjs",
+    "course/index.mjs",
+    "course/realtime.mjs",
+    "course/common.mjs",
+    "course/storage.mjs"
+  ]
+}

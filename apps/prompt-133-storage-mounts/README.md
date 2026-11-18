@@ -1,5 +1,11 @@
 # Prompt 133 — Storage mounts
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sandboxes.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Mount supported external storage with narrowly scoped access and verify where output files are persisted.
 
 ## Run in Windows Terminal

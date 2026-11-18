@@ -1,5 +1,11 @@
 # Prompt 152 — Workflow visualization
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/tracing.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Visualize the agent-and-handoff structure using a supported SDK utility or a graph generated from application configuration.
 
 ## Run in Windows Terminal

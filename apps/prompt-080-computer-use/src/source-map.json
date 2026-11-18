@@ -1,0 +1,17 @@
+{
+  "number": 80,
+  "title": "Computer use",
+  "implementation": "hosted-execution.mjs",
+  "sources": {
+    "hosted/hosted-execution.mjs": "hosted-execution.mjs",
+    "hosted/browser-computer.mjs": "examples/hosted/browser-computer.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "hosted-execution.mjs",
+    "examples/hosted/browser-computer.mjs"
+  ]
+}

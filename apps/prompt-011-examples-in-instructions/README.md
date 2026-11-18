@@ -1,5 +1,11 @@
 # Prompt 011 — Examples in instructions
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/definition-lessons.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Improve an agent’s instructions using three examples, then compare its behavior before and after.
 
 Inspect three labeled examples and compare two agents on the same support ticket.

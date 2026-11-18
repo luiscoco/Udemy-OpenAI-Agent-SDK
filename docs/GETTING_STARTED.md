@@ -15,19 +15,11 @@ npm run lesson:5
 
 Open http://127.0.0.1:3105. Keep the terminal running; press **Ctrl+C** to stop the server.
 
-From `apps`, select another lesson with `npm run lesson:NUMBER`. Scripts cover 2–200; the core course covers **1–180**. The default port is **3100 + the prompt number**. Applications share the runtime, so keep the folder structure intact.
+From `apps`, select another lesson with `npm run lesson:NUMBER`. Scripts cover 1–200; the core course covers **1–180**. The default port is **3100 + the prompt number**. Applications share the runtime, so keep the folder structure intact.
 
-### Prompt 1 is standalone
+### Prompt 1 uses the same commands
 
-From the repository root:
-
-```powershell
-Set-Location .\apps\prompt-001-product-map
-npm ci
-npm start
-```
-
-Open http://127.0.0.1:3101. Its dependencies are installed separately.
+From `apps`, run `npm run lesson:1` and open http://127.0.0.1:3101. All lesson folders use `server.mjs`, `src/application.mjs`, and `SOURCE.md`. After the shared install you may also run `npm start` from any prompt folder. Prompt 1 retains its own package file for an optional separate installation.
 
 ## Execution modes
 
@@ -68,6 +60,10 @@ Open http://127.0.0.1:3125. The interpreter is installed under `apps/.runtime`, 
 
 For an existing Python environment, install `apps/foundations-runtime/requirements-python.txt` there and set `CLASSROOM_PYTHON` to that environment's interpreter path in the selected lesson's `.env`.
 
+## Read and change the actual source
+
+Each prompt folder contains `src/application.mjs`, its practical implementation, and a `SOURCE.md` guide. Both launch methods use this local code. Edit a file under the selected prompt’s `src`, restart the server, and rerun the scenario. The source explorer reads the same local files. Shared HTML, CSS, browser infrastructure, and common helpers remain in `apps/foundations-runtime`; keep the whole repository together. See the [source index](SOURCE_CODE.md).
+
 ## Learning workflow
 
 1. Read the implementation prompt and predict the first scenario's result.
@@ -83,7 +79,7 @@ For an existing Python environment, install `apps/foundations-runtime/requiremen
 | `node` or `npm` is not recognized | Install Node.js and reopen the terminal. |
 | PowerShell blocks `npm.ps1` | Use `npm.cmd ci` and `npm.cmd run lesson:5`; no execution-policy change is necessary. |
 | Page does not load | Keep the server running and use its printed URL. |
-| Module is missing | Run `npm ci` from `apps`; install Prompt 1 separately. |
+| Module is missing | Run `npm ci` from `apps`; keep the complete repository structure together. |
 | Port is busy | Stop the previous server or use an alternate port below. |
 | Python is missing | Follow the Python setup and the selected lesson's README. |
 | Live request fails | Check the selected `.env`, model access, and service configuration; restart after editing. |

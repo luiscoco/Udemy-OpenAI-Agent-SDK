@@ -1,5 +1,11 @@
 # Prompt 26 — TypeScript structured output
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/structured-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Create a TypeScript agent that returns a validated object defined with Zod.
 
 From Windows PowerShell

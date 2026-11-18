@@ -1,5 +1,11 @@
 # Prompt 64 — Tool timeouts
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/tools-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Add supported per-tool timeouts and distinguish timeout handling from application retry logic.
 
 Run from Windows Terminal with PowerShell.

@@ -1,0 +1,23 @@
+{
+  "number": 9,
+  "title": "Agent identity",
+  "implementation": "identity-lesson.mjs",
+  "sources": {
+    "identity/specialist-agent.mjs": "examples/identity/specialist-agent.mjs",
+    "identity/contract.js": "public/identity.js",
+    "identity/run-specialist.mjs": "examples/identity/run-specialist.mjs",
+    "implementation/identity-lesson.mjs": "identity-lesson.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {
+    "identity.js": "public/identity.js"
+  },
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "identity-lesson.mjs",
+    "examples/identity/specialist-agent.mjs",
+    "public/identity.js",
+    "examples/identity/run-specialist.mjs"
+  ]
+}

@@ -1,5 +1,11 @@
 # Prompt 82 — Remote MCP
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/mcp-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Connect to an MCP server using Streamable HTTP and demonstrate a successful tool call.
 
 A real separate loopback HTTP server responds to MCP initialization, discovery and tool requests. The SDK makes the tool call through Streamable HTTP and closes the client and server.

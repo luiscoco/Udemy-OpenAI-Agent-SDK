@@ -1,0 +1,21 @@
+{
+  "number": 25,
+  "title": "Python structured output",
+  "implementation": "structured-execution.mjs",
+  "sources": {
+    "structured/python_product.py": "examples/structured/python_product.py",
+    "implementation/structured-execution.mjs": "structured-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {
+    "structured-lessons.js": "public/structured-lessons.js"
+  },
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "structured-execution.mjs",
+    "python-runtime.mjs",
+    "examples/structured/python_product.py",
+    "public/structured-lessons.js"
+  ]
+}

@@ -1,5 +1,11 @@
 # Prompt 169 — Deterministic model tests
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/evaluation.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Test agent orchestration using a scripted or fake model, preferring documented SDK testing helpers when available.
 
 ## Run in Windows Terminal

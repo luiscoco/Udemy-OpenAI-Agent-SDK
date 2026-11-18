@@ -1,0 +1,17 @@
+{
+  "number": 61,
+  "title": "Database tool",
+  "implementation": "tools-execution.mjs",
+  "sources": {
+    "tools/tenant-database.mjs": "examples/tools/tenant-database.mjs",
+    "tools/tools-execution.mjs": "tools-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "tools-execution.mjs",
+    "examples/tools/tenant-database.mjs"
+  ]
+}

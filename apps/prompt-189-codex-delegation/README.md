@@ -1,5 +1,11 @@
 # Prompt 189 — Codex delegation
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/advanced.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Delegate a bounded coding task to Codex through the currently documented integration, preserving workspace boundaries and reviewable results.
 
 ## Run in Windows Terminal

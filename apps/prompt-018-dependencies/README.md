@@ -1,5 +1,11 @@
 # Prompt 018 — Dependencies
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/context-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Pass database, API, and logging clients through context so tools can reuse application services.
 
 Pass local database, API, and logging adapters through SDK context and inspect their use.

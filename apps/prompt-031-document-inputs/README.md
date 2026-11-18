@@ -1,5 +1,11 @@
 # Prompt 31 — Document inputs
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/structured-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Pass a PDF or supported document to an agent and explain input formats, processing behavior, and relevant limits.
 
 From Windows PowerShell

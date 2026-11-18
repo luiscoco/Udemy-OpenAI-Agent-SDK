@@ -1,5 +1,11 @@
 # Prompt 90 — Ownership comparison
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/handoff-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Implement the same task using a handoff and an agent-as-tool, then compare who produces the final answer.
 
 Both paths handle the same duplicate invoice request. A handoff ends with the specialist. agent.asTool returns a nested result so the manager can answer. Model output is scripted in classroom mode.

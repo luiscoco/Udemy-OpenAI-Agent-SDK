@@ -1,0 +1,15 @@
+{
+  "number": 93,
+  "title": "Handoff callbacks",
+  "implementation": "handoff-execution.mjs",
+  "sources": {
+    "handoffs/handoff-execution.mjs": "handoff-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "handoff-execution.mjs"
+  ]
+}

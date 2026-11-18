@@ -1,5 +1,11 @@
 # Prompt 73 — Web search
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/discovery-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Add web search and return answers with usable source citations and supported search restrictions.
 
 Classroom search and citations are provider fixtures. Live mode performs hosted web search. Returned URL annotations become clickable sources below the answer.

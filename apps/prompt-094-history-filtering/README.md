@@ -1,5 +1,11 @@
 # Prompt 94 — History filtering
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/handoff-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Filter the conversation passed to a specialist while preserving the information needed to complete its task.
 
 Compare the specialist’s actual input. The focused inputFilter removes unrelated messages and tool-history pairs while retaining INV-42 and EUR 18. All history and markers are synthetic fixtures.

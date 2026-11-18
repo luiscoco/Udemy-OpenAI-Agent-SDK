@@ -1,5 +1,11 @@
 # Prompt 168 — Telephony integration
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/realtime.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Connect an agent workflow to a supported telephony transport and handle call lifecycle, cancellation, and connection failures.
 
 ## Run in Windows Terminal

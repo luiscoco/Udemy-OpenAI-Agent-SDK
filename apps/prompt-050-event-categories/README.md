@@ -1,5 +1,11 @@
 # Prompt 50 — Event categories
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/streaming-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Compare raw model events with higher-level SDK events and explain when to consume each.
 
 Run in Windows Terminal with PowerShell.

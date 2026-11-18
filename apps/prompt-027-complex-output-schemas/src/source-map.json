@@ -1,0 +1,20 @@
+{
+  "number": 27,
+  "title": "Complex output schemas",
+  "implementation": "structured-execution.mjs",
+  "sources": {
+    "structured/schemas.mjs": "examples/structured/schemas.mjs",
+    "implementation/structured-execution.mjs": "structured-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {
+    "structured-lessons.js": "public/structured-lessons.js"
+  },
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "structured-execution.mjs",
+    "examples/structured/schemas.mjs",
+    "public/structured-lessons.js"
+  ]
+}

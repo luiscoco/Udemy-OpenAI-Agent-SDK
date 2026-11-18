@@ -1,5 +1,11 @@
 # Prompt 63 — Tool failures
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/tools-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Configure tool-error behavior so the agent receives useful failure information without exposing internal secrets.
 
 Run from Windows Terminal with PowerShell.

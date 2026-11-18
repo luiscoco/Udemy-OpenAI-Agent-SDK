@@ -1,5 +1,11 @@
 # Prompt 163 — Speech recognition
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/voice.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Configure transcription language and relevant recognition settings, then evaluate errors on representative recordings.
 
 ## Run in Windows Terminal

@@ -1,5 +1,11 @@
 # Prompt 127 — Review interface
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/approvals.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Build a review screen showing the proposed action, exact arguments, approving identity, and decision outcome.
 
 ## Run in Windows Terminal

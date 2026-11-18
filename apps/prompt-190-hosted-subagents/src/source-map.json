@@ -1,0 +1,20 @@
+{
+  "number": 190,
+  "title": "Hosted subagents",
+  "implementation": "course/advanced.mjs",
+  "sources": {
+    "course/advanced.mjs": "course/advanced.mjs",
+    "course/common.mjs": "course/common.mjs",
+    "course/storage.mjs": "course/storage.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "course/advanced.mjs",
+    "course/index.mjs",
+    "course/common.mjs",
+    "course/storage.mjs"
+  ]
+}

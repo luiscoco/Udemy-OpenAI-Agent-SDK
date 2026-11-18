@@ -1,5 +1,11 @@
 # Prompt 70 — Repeated-call prevention
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/control-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Demonstrate tool-choice reset behavior and prevent a forced tool from causing an endless execution loop.
 
 A controlled model repeats the forced tool while that setting remains active. The reset scenario completes. The retained choice reaches a finite maxTurns budget.

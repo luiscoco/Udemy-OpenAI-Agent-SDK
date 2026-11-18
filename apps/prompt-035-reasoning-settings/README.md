@@ -1,5 +1,11 @@
 # Prompt 35 — Reasoning settings
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/runtime-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Compare supported reasoning-effort and verbosity settings using the same task and measurable acceptance criteria.
 
 Run from Windows Terminal with PowerShell.

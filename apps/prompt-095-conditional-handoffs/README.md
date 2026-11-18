@@ -1,5 +1,11 @@
 # Prompt 95 — Conditional handoffs
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/workflows.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Enable or disable specialist handoffs based on authenticated context and supported SDK configuration.
 
 ## Run in Windows Terminal

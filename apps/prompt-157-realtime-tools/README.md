@@ -1,5 +1,11 @@
 # Prompt 157 — Realtime tools
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/realtime.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Add a private order-lookup tool to a voice agent while keeping execution and credentials on the backend.
 
 ## Run in Windows Terminal

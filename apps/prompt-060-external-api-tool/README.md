@@ -1,5 +1,11 @@
 # Prompt 60 — External API tool
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/tools-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Create an asynchronous tool that calls an external API with authentication, timeouts, and clear errors.
 
 Run from Windows Terminal with PowerShell.

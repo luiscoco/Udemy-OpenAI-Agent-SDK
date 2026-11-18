@@ -1,5 +1,11 @@
 # Prompt 170 — Tool unit tests
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/evaluation.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Test tool validation, authorization, successful results, and failures without making paid model calls.
 
 ## Run in Windows Terminal

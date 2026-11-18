@@ -1,0 +1,15 @@
+{
+  "number": 48,
+  "title": "Manual continuation",
+  "implementation": "streaming-execution.mjs",
+  "sources": {
+    "streaming/streaming-execution.mjs": "streaming-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "streaming-execution.mjs"
+  ]
+}

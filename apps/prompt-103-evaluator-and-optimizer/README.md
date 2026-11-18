@@ -1,5 +1,11 @@
 # Prompt 103 — Evaluator and optimizer
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/workflows.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Build a bounded draft-review-revise loop with explicit success criteria and a maximum number of iterations.
 
 ## Run in Windows Terminal

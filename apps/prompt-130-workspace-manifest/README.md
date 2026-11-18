@@ -1,5 +1,11 @@
 # Prompt 130 — Workspace manifest
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sandboxes.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Define a manifest containing input files, directories, environment configuration, and an output location.
 
 ## Run in Windows Terminal

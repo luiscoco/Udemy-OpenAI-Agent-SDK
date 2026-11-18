@@ -1,5 +1,11 @@
 # Prompt 122 — Conditional approval
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/approvals.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Require approval only when a tool’s arguments meet a specified application policy.
 
 ## Run in Windows Terminal

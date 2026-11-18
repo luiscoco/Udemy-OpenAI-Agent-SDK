@@ -1,5 +1,11 @@
 # Prompt 48 — Manual continuation
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/streaming-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Build a two-turn conversation by carrying forward the SDK’s replay-ready history.
 
 Run in Windows Terminal with PowerShell.

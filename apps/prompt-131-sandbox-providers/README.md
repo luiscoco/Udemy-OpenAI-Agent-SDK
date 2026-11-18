@@ -1,5 +1,11 @@
 # Prompt 131 — Sandbox providers
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sandboxes.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Compare supported local, Docker, and hosted sandbox clients, including their isolation and lifecycle responsibilities.
 
 ## Run in Windows Terminal

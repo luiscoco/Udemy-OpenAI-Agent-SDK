@@ -1,5 +1,11 @@
 # Prompt 137 — Shell capability
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sandboxes.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Enable sandbox shell execution and demonstrate command output, failure handling, and supported interactive processes.
 
 ## Run in Windows Terminal

@@ -1,5 +1,11 @@
 # Prompt 161 — Python voice pipeline
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/voice.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Create a Python VoicePipeline that connects speech recognition, an existing agent, and speech generation.
 
 ## Run in Windows Terminal

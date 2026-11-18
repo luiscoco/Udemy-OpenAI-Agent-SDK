@@ -1,10 +1,10 @@
 import assert from "node:assert/strict";
 import test, { after, before } from "node:test";
 import { createApp } from "../server.mjs";
-import { execute as executeResponses } from "../adapters/responses.mjs";
-import { execute as executeAgentsSdk } from "../adapters/agents-sdk.mjs";
-import { execute as executeAgentsApi } from "../adapters/agents-api.mjs";
-import { execute as executeCodex } from "../adapters/codex.mjs";
+import { execute as executeResponses } from "../src/adapters/responses.mjs";
+import { execute as executeAgentsSdk } from "../src/adapters/agents-sdk.mjs";
+import { execute as executeAgentsApi } from "../src/adapters/agents-api.mjs";
+import { execute as executeCodex } from "../src/adapters/codex.mjs";
 
 let server;
 let base;

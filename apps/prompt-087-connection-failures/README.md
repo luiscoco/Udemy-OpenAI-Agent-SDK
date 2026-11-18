@@ -1,5 +1,11 @@
 # Prompt 87 — Connection failures
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/mcp-control-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Handle MCP connection failures, timeouts, server restarts, and cleanup without hiding the underlying problem.
 
 The exercise causes real loopback refusal, delayed discovery or a server restart. It retains actual error diagnostics, closes failed clients, and explicitly reconnects for the restart scenario. No model inference is used.

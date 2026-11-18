@@ -1,0 +1,20 @@
+{
+  "number": 125,
+  "title": "Nested approvals",
+  "implementation": "course/approvals.mjs",
+  "sources": {
+    "course/approvals.mjs": "course/approvals.mjs",
+    "course/common.mjs": "course/common.mjs",
+    "course/storage.mjs": "course/storage.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "course/approvals.mjs",
+    "course/index.mjs",
+    "course/common.mjs",
+    "course/storage.mjs"
+  ]
+}

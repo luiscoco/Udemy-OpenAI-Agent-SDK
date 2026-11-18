@@ -1,5 +1,11 @@
 # Prompt 38 — Alternative providers
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/runtime-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Connect another model provider through a supported adapter and document differences in tools, outputs, streaming, and usage reporting.
 
 Run from Windows Terminal with PowerShell.

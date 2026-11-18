@@ -1,5 +1,11 @@
 # Prompt 66 — Stopping after tools
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/control-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Stop a run after a tool result using the SDK’s supported tool-use behavior.
 
 Compare actual model-response counts and the returned output under stop_on_first_tool, run_llm_again and stopAtToolNames.

@@ -1,5 +1,11 @@
 # Prompt 71 — Deferred discovery
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/discovery-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Configure hosted tool search with deferred tools and namespaces, checking support in my selected SDK.
 
 The installed SDK serializes hosted tool search, deferLoading and toolNamespace. Classroom discovery uses injected provider responses. Live mode performs hosted discovery.

@@ -1,5 +1,11 @@
 # Prompt 32 — Multimodal tool results
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/structured-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Return supported text, image, or file content from a tool and demonstrate how the agent uses it.
 
 From Windows PowerShell

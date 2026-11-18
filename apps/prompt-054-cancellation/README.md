@@ -1,5 +1,11 @@
 # Prompt 54 — Cancellation
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/streaming-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Cancel a running stream and clean up application resources using the SDK’s supported cancellation mechanism.
 
 Run in Windows Terminal with PowerShell.

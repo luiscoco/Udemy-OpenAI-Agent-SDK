@@ -1,0 +1,17 @@
+{
+  "number": 78,
+  "title": "Image generation",
+  "implementation": "hosted-execution.mjs",
+  "sources": {
+    "hosted/hosted-execution.mjs": "hosted-execution.mjs",
+    "hosted/artifacts.mjs": "artifacts.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "hosted-execution.mjs",
+    "artifacts.mjs"
+  ]
+}

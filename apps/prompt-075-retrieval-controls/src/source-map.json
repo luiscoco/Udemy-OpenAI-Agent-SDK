@@ -1,0 +1,15 @@
+{
+  "number": 75,
+  "title": "Retrieval controls",
+  "implementation": "hosted-execution.mjs",
+  "sources": {
+    "hosted/hosted-execution.mjs": "hosted-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "hosted-execution.mjs"
+  ]
+}

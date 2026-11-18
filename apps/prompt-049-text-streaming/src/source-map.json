@@ -1,0 +1,19 @@
+{
+  "number": 49,
+  "title": "Text streaming",
+  "implementation": "streaming-execution.mjs",
+  "sources": {
+    "streaming/terminal.mjs": "examples/streaming/terminal.mjs",
+    "streaming/classroom-model.ts": "examples/streaming/classroom-model.ts",
+    "streaming/streaming-execution.mjs": "streaming-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "streaming-execution.mjs",
+    "examples/streaming/terminal.mjs",
+    "examples/streaming/classroom-model.ts"
+  ]
+}

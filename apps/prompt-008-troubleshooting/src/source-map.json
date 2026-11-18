@@ -1,0 +1,21 @@
+{
+  "number": 8,
+  "title": "Troubleshooting",
+  "implementation": "execute.mjs",
+  "sources": {
+    "diagnostics.mjs": "diagnostics.mjs",
+    "config.mjs": "examples/organized/config.mjs",
+    "package.json": "examples/starter-typescript/package.json",
+    "implementation/execute.mjs": "execute.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "bootstrap.mjs",
+    "diagnostics.mjs",
+    "examples/organized/config.mjs",
+    "examples/starter-typescript/package.json"
+  ]
+}

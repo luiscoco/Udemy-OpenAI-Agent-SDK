@@ -1,0 +1,17 @@
+{
+  "number": 39,
+  "title": "Custom model integration",
+  "implementation": "runtime-execution.mjs",
+  "sources": {
+    "runtime/controlled-model.ts": "examples/runtime/controlled-model.ts",
+    "implementation/runtime-execution.mjs": "runtime-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "runtime-execution.mjs",
+    "examples/runtime/controlled-model.ts"
+  ]
+}

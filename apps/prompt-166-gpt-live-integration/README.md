@@ -1,5 +1,11 @@
 # Prompt 166 — GPT-Live integration
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/gpt-live.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Connect GPT-Live through client delegation to my existing Agents SDK backend and preserve its authorization rules.
 
 ## Run in Windows Terminal

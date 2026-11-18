@@ -1,5 +1,11 @@
 # Prompt 134 — Runtime boundaries
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sandboxes.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Configure sandbox network access and credentials while keeping application control-plane secrets outside the workspace.
 
 ## Run in Windows Terminal

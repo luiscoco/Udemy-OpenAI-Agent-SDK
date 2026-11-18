@@ -1,0 +1,15 @@
+{
+  "number": 71,
+  "title": "Deferred discovery",
+  "implementation": "discovery-execution.mjs",
+  "sources": {
+    "control/discovery-execution.mjs": "discovery-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "discovery-execution.mjs"
+  ]
+}

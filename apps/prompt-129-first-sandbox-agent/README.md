@@ -1,5 +1,11 @@
 # Prompt 129 — First sandbox agent
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sandboxes.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Create a minimal SandboxAgent that reads an input file and writes a result into its workspace.
 
 ## Run in Windows Terminal

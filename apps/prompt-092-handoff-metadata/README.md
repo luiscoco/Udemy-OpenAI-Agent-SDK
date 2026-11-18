@@ -1,5 +1,11 @@
 # Prompt 92 — Handoff metadata
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/handoff-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Pass validated structured metadata during a handoff using the selected SDK’s supported API.
 
 A Zod schema validates reason, priority and invoiceId before onHandoff runs. The invalid classroom call is rejected before callback side effects or specialist execution.

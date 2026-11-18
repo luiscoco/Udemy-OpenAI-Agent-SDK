@@ -1,0 +1,17 @@
+{
+  "number": 47,
+  "title": "SDK exceptions",
+  "implementation": "streaming-execution.mjs",
+  "sources": {
+    "streaming/result-inspection.mjs": "examples/streaming/result-inspection.mjs",
+    "streaming/streaming-execution.mjs": "streaming-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "streaming-execution.mjs",
+    "examples/streaming/result-inspection.mjs"
+  ]
+}

@@ -1,5 +1,11 @@
 # Prompt 143 — Custom capabilities
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/sandboxes.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Implement a custom sandbox capability that adds a narrowly defined tool and its supporting instructions.
 
 ## Run in Windows Terminal

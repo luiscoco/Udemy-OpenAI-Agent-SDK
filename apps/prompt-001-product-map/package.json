@@ -5,7 +5,7 @@
   "type": "module",
   "description": "An interactive classroom lab comparing four OpenAI developer products.",
   "engines": {
-    "node": ">=22.16.0"
+    "node": ">=24.0.0"
   },
   "scripts": {
     "start": "node --env-file-if-exists=.env server.mjs",

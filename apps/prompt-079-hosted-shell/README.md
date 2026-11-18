@@ -1,5 +1,11 @@
 # Prompt 79 — Hosted shell
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/hosted-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Integrate supported hosted-shell execution, including container reuse, input files, and appropriate network configuration.
 
 Classroom hosted-shell results are injected provider fixtures. Live mode uploads the CSV and creates owned hosted containers. Compare reuse with fresh containers. Network allowlists also require organization support.

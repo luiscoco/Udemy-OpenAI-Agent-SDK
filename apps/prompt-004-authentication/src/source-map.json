@@ -1,0 +1,19 @@
+{
+  "number": 4,
+  "title": "Authentication",
+  "implementation": "execute.mjs",
+  "sources": {
+    "config.mjs": "examples/organized/config.mjs",
+    "diagnostics.mjs": "diagnostics.mjs",
+    "implementation/execute.mjs": "execute.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "bootstrap.mjs",
+    "examples/organized/config.mjs",
+    "diagnostics.mjs"
+  ]
+}

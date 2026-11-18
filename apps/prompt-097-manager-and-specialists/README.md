@@ -1,5 +1,11 @@
 # Prompt 97 — Manager and specialists
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/workflows.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Create a manager agent that calls specialist agents as tools and synthesizes their results.
 
 ## Run in Windows Terminal

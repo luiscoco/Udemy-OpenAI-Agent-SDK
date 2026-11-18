@@ -1,5 +1,11 @@
 # Prompt 013 — Stored prompts
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/definition-lessons.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Configure an agent using a stored prompt with a version and variables, where supported.
 
 Compare versioned prompt builders with the installed SDK's legacy hosted-prompt reference.

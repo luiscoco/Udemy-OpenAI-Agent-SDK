@@ -1,5 +1,11 @@
 # Prompt 187 — Provider adapters
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/advanced.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Evaluate documented LiteLLM, Any-LLM, or equivalent adapters for my language, recording unsupported features and configuration differences.
 
 ## Run in Windows Terminal

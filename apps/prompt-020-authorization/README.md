@@ -1,5 +1,11 @@
 # Prompt 020 — Authorization
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/context-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Enforce resource authorization inside a tool using authenticated context, regardless of identifiers suggested by the model.
 
 Use tenant-scoped lookups to allow or deny a requested document in the classroom dataset.

@@ -1,5 +1,11 @@
 # Prompt 81 — Local MCP
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/mcp-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Connect an agent to a local MCP server using stdio and close the connection reliably.
 
 A real Node subprocess serves newline-delimited MCP JSON-RPC. The SDK discovers and invokes read_timetable. The connection closes in finally. Classroom model decisions are scripted.

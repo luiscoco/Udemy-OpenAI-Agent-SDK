@@ -1,5 +1,11 @@
 # Prompt 016 — Configuration reference
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/definition-lessons.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Explain the public agent configuration options available in my installed SDK, with a small example for each category.
 
 Inspect public Agent fields, construct examples, and distinguish run-level settings.

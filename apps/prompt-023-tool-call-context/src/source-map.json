@@ -1,0 +1,22 @@
+{
+  "number": 23,
+  "title": "Tool-call context",
+  "implementation": "context-execution.mjs",
+  "sources": {
+    "context/tool-call-metadata.mjs": "examples/context/tool-call-metadata.mjs",
+    "context/scripted-model.mjs": "examples/context/scripted-model.mjs",
+    "implementation/context-execution.mjs": "context-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {
+    "context-lessons.js": "public/context-lessons.js"
+  },
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "context-execution.mjs",
+    "examples/context/tool-call-metadata.mjs",
+    "examples/context/scripted-model.mjs",
+    "public/context-lessons.js"
+  ]
+}

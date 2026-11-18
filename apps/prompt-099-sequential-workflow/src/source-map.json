@@ -1,0 +1,20 @@
+{
+  "number": 99,
+  "title": "Sequential workflow",
+  "implementation": "course/workflows.mjs",
+  "sources": {
+    "course/workflows.mjs": "course/workflows.mjs",
+    "course/common.mjs": "course/common.mjs",
+    "course/storage.mjs": "course/storage.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "course/workflows.mjs",
+    "course/index.mjs",
+    "course/common.mjs",
+    "course/storage.mjs"
+  ]
+}

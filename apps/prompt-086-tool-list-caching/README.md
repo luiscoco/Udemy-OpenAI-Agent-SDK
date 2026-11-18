@@ -1,5 +1,11 @@
 # Prompt 86 — Tool-list caching
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/mcp-control-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Configure supported MCP tool-list caching and demonstrate when cached definitions must be invalidated.
 
 The fixture uses an MCP session ID because the installed SDK refreshes stateless HTTP catalogs. Compare one cached tools/list request with an explicit invalidation or uncached discovery. No model inference is used.

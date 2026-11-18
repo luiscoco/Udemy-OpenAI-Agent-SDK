@@ -1,5 +1,11 @@
 # Prompt 017 — Typed context
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/context-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Define typed application context containing user identity, tenant identity, preferences, and request metadata.
 
 Validate user, tenant, preferences, and request metadata before using typed SDK context.

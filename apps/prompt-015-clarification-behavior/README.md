@@ -1,5 +1,11 @@
 # Prompt 015 — Clarification behavior
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/definition-lessons.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Configure an agent to ask for missing information before attempting a task with incomplete requirements.
 
 Test a workshop planner with incomplete and complete audience and duration requirements.

@@ -1,5 +1,11 @@
 # Prompt 190 — Hosted subagents
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/advanced.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Check experimental SDK integration with hosted multi-agent execution, and document its differences from local handoffs and agents-as-tools.
 
 ## Run in Windows Terminal

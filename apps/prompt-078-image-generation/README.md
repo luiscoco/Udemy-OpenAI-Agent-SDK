@@ -1,5 +1,11 @@
 # Prompt 78 — Image generation
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/hosted-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Add the image-generation tool and correctly extract, store, and display generated image results.
 
 Classroom mode returns the bundled PNG as a provider fixture. Live mode uses the hosted image-generation tool. The application verifies the result format, stores it and displays the saved image.

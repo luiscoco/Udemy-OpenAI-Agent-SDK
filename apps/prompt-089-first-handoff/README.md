@@ -1,5 +1,11 @@
 # Prompt 89 — First handoff
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/handoff-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Build a triage agent that hands requests to billing, technical-support, or account specialists.
 
 A real SDK handoff moves the support conversation to billing, technical or account support. Classroom routing is scripted. Inspect the observed handoff items and final answer owner.

@@ -1,5 +1,11 @@
 # Prompt 184 — Durable execution
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/reliability.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Integrate a suitable durable workflow engine and demonstrate recovery after a worker crashes during an agent task.
 
 ## Run in Windows Terminal

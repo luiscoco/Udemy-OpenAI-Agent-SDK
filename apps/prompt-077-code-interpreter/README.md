@@ -1,5 +1,11 @@
 # Prompt 77 — Code Interpreter
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/hosted-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Use Code Interpreter to analyze a CSV, validate calculations, and return generated charts or files.
 
 Classroom Code Interpreter output is injected. The source CSV is independently parsed and checked, and the classroom summary file is created locally. The incorrect-total scenario deliberately fails acceptance. Live mode uses an owned hosted container.

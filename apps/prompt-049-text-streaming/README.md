@@ -1,5 +1,11 @@
 # Prompt 49 — Text streaming
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/streaming-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Stream an agent’s text response incrementally to the terminal.
 
 Run in Windows Terminal with PowerShell.

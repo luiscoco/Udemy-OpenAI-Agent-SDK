@@ -1,0 +1,39 @@
+{
+  "number": 12,
+  "title": "Dynamic instructions",
+  "implementation": "definition-lessons.mjs",
+  "sources": {
+    "definitions/dynamic-instructions.mjs": "examples/definitions/dynamic-instructions.mjs",
+    "definitions/builders.js": "public/definitions.js",
+    "implementation/definition-lessons.mjs": "definition-lessons.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {
+    "definitions.js": "public/definitions.js",
+    "handoff-lessons.js": "public/handoff-lessons.js",
+    "hosted-lessons.js": "public/hosted-lessons.js",
+    "control-lessons.js": "public/control-lessons.js",
+    "tools-lessons.js": "public/tools-lessons.js",
+    "streaming-lessons.js": "public/streaming-lessons.js",
+    "runtime-lessons.js": "public/runtime-lessons.js",
+    "structured-lessons.js": "public/structured-lessons.js",
+    "context-lessons.js": "public/context-lessons.js",
+    "remaining-lessons.js": "public/remaining-lessons.js"
+  },
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "definition-lessons.mjs",
+    "examples/definitions/dynamic-instructions.mjs",
+    "public/definitions.js",
+    "public/handoff-lessons.js",
+    "public/hosted-lessons.js",
+    "public/control-lessons.js",
+    "public/tools-lessons.js",
+    "public/streaming-lessons.js",
+    "public/runtime-lessons.js",
+    "public/structured-lessons.js",
+    "public/context-lessons.js",
+    "public/remaining-lessons.js"
+  ]
+}

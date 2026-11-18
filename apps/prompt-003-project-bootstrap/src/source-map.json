@@ -1,0 +1,24 @@
+{
+  "number": 3,
+  "title": "Project bootstrap",
+  "implementation": "execute.mjs",
+  "sources": {
+    "package.json": "examples/starter-typescript/package.json",
+    "package-lock.json": "examples/starter-typescript/package-lock.json",
+    "first-agent.ts": "examples/first-agent.ts",
+    "first_agent.py": "examples/first_agent.py",
+    "implementation/execute.mjs": "execute.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "bootstrap.mjs",
+    "python-runtime.mjs",
+    "examples/starter-typescript/package.json",
+    "examples/starter-typescript/package-lock.json",
+    "examples/first-agent.ts",
+    "examples/first_agent.py"
+  ]
+}

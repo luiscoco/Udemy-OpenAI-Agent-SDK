@@ -1,5 +1,11 @@
 # Prompt 41 — Execution methods
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/runtime-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Demonstrate asynchronous execution and, where supported, synchronous execution, explaining when each is appropriate.
 
 Run from Windows Terminal with PowerShell.

@@ -1,5 +1,11 @@
 # Prompt 009 — Agent identity
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/identity-lesson.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Create a specialist agent with a clear name, responsibility, boundaries, and expected response style.
 
 A runnable teaching application for defining and testing a specialist tutor. It uses the shared application runtime alongside prompts 2–8.

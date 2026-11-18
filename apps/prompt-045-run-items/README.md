@@ -1,5 +1,11 @@
 # Prompt 45 — Run items
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/streaming-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Inspect the run’s model messages, tool calls, tool results, and handoff records.
 
 Run in Windows Terminal with PowerShell.

@@ -1,5 +1,11 @@
 # Prompt 150 — Trace controls
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/tracing.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Configure trace export and sensitive-data handling using the selected SDK’s supported tracing controls.
 
 ## Run in Windows Terminal

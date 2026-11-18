@@ -1,5 +1,11 @@
 # Prompt 62 — Tool return values
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/tools-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Compare text and structured tool results and choose a useful format for downstream reasoning.
 
 Run from Windows Terminal with PowerShell.

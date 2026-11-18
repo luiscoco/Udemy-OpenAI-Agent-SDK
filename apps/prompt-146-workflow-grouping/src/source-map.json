@@ -1,0 +1,22 @@
+{
+  "number": 146,
+  "title": "Workflow grouping",
+  "implementation": "course/tracing.mjs",
+  "sources": {
+    "course/tracing.mjs": "course/tracing.mjs",
+    "course/common.mjs": "course/common.mjs",
+    "course/storage.mjs": "course/storage.mjs",
+    "course/trace-worker.mjs": "course/trace-worker.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "course/tracing.mjs",
+    "course/index.mjs",
+    "course/common.mjs",
+    "course/storage.mjs",
+    "course/trace-worker.mjs"
+  ]
+}

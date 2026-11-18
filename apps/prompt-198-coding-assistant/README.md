@@ -1,5 +1,11 @@
 # Prompt 198 — Coding assistant
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/projects.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Build a sandbox coding assistant that inspects a repository, applies changes, runs relevant checks, and presents the resulting diff.
 
 ## Run in Windows Terminal

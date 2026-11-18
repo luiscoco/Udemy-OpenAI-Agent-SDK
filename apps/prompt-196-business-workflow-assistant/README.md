@@ -1,5 +1,11 @@
 # Prompt 196 — Business-workflow assistant
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/projects.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Build a workflow assistant that prepares proposed record changes, obtains approval, executes them once, and records an audit trail.
 
 ## Run in Windows Terminal

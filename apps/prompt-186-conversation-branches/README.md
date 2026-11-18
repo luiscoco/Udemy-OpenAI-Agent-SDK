@@ -1,5 +1,11 @@
 # Prompt 186 — Conversation branches
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/advanced.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Implement supported conversation branching and compare alternate continuations while maintaining valid history.
 
 ## Run in Windows Terminal

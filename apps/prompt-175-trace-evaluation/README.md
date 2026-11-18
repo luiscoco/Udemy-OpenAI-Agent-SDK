@@ -1,5 +1,11 @@
 # Prompt 175 — Trace evaluation
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/course/evaluation.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Evaluate whether the workflow chose appropriate tools, made correct handoffs, and respected its instructions.
 
 ## Run in Windows Terminal

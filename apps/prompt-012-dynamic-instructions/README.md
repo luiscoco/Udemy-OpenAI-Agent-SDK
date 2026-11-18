@@ -1,5 +1,11 @@
 # Prompt 012 — Dynamic instructions
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/definition-lessons.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 > Generate agent instructions dynamically from the current user, language, and application context.
 
 Resolve an actual SDK callback using a sample user, language, and application context.

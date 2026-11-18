@@ -1,5 +1,11 @@
 # Prompt 88 — Prompts and resources
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/mcp-control-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Demonstrate supported MCP prompts and resources, explaining how they differ from automatically exposed tools.
 
 The Agents SDK provides resource methods. The installed MCP client provides prompt methods. Both call a real fixture server. The application explicitly chooses whether retrieved content enters the model request.

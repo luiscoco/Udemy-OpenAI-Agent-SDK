@@ -1,0 +1,22 @@
+{
+  "number": 28,
+  "title": "Business validation",
+  "implementation": "structured-execution.mjs",
+  "sources": {
+    "structured/schemas.mjs": "examples/structured/schemas.mjs",
+    "structured/business-validation.mjs": "examples/structured/business-validation.mjs",
+    "implementation/structured-execution.mjs": "structured-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {
+    "structured-lessons.js": "public/structured-lessons.js"
+  },
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "structured-execution.mjs",
+    "examples/structured/schemas.mjs",
+    "examples/structured/business-validation.mjs",
+    "public/structured-lessons.js"
+  ]
+}

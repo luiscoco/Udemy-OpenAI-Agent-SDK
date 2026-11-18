@@ -1,0 +1,15 @@
+{
+  "name": "classroom-first-agent",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env main.ts"
+  },
+  "dependencies": {
+    "@openai/agents": "0.21.0",
+    "zod": "4.6.7"
+  }
+}

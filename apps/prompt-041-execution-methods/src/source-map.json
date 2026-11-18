@@ -1,0 +1,18 @@
+{
+  "number": 41,
+  "title": "Execution methods",
+  "implementation": "runtime-execution.mjs",
+  "sources": {
+    "runtime/execution_methods.py": "examples/runtime/execution_methods.py",
+    "runtime/runtime-execution.mjs": "runtime-execution.mjs",
+    "application.mjs": "application.mjs"
+  },
+  "publicFiles": {},
+  "sharedRuntime": "../../foundations-runtime",
+  "files": [
+    "execute.mjs",
+    "runtime-execution.mjs",
+    "python-runtime.mjs",
+    "examples/runtime/execution_methods.py"
+  ]
+}

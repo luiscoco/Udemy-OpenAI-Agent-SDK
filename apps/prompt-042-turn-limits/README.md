@@ -1,5 +1,11 @@
 # Prompt 42 — Turn limits
 
+## Practical application source
+
+**[Open the executable implementation and source map](SOURCE.md)** · [Application entry point](src/application.mjs) · [Implementation](src/runtime-execution.mjs)
+
+The lesson now runs the local source in this folder; the common UI and utilities are shared.
+
 Set a maximum run-turn limit and demonstrate what counts as a turn.
 
 Run from Windows Terminal with PowerShell.
