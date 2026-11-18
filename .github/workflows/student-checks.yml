@@ -1,0 +1,28 @@
+name: Student source checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  classroom-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: apps/package-lock.json
+      - name: Install pinned student dependencies
+        working-directory: apps
+        run: npm ci
+      - name: Check classroom instructions, identities, and syntax highlighting
+        working-directory: apps
+        run: node --test foundations-runtime/tests/syntax.test.mjs foundations-runtime/tests/identity.test.mjs foundations-runtime/tests/definitions.test.mjs
+      - name: Check curriculum metadata
+        run: node apps/foundations-runtime/scripts/build-course-curriculum.mjs
+      - name: Ensure the committed curriculum matches its source
+        run: git diff --exit-code -- docs/CURRICULUM.md

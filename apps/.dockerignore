@@ -1,0 +1,8 @@
+**/node_modules
+**/.env
+**/.env.*
+**/recordings
+test-results
+.runtime
+prompt-*
+!foundations-runtime/**

@@ -1,0 +1,4 @@
+openai-agents[voice]==0.24.0
+pydantic==2.14.3
+openai-chatkit==1.6.5
+numpy==2.5.4

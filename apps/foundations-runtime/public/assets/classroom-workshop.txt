@@ -1,0 +1,13 @@
+Robotics workshop
+A beginner lesson for the school club
+Duration 30 minutes  |  Audience Beginners
+Workshop schedule
+5 minutes
+Introduce the robot and its controls
+20 minutes
+Build and test a simple route
+5 minutes
+Demonstrate and reflect
+Materials
+Robotics kits and a projector
+Agent Academy / teaching fixture / 12 November 2026

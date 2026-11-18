@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-11-12",
+  "source": "Published stable npm dist-tags and PyPI metadata, verified during implementation",
+  "typescript": {
+    "package": "@openai/agents",
+    "version": "0.21.0",
+    "schema": "zod",
+    "schemaVersion": "4.6.7",
+    "registry": "https://registry.npmjs.org/@openai%2fagents/latest"
+  },
+  "python": {
+    "package": "openai-agents",
+    "version": "0.24.0",
+    "requiresPython": ">=3.10",
+    "registry": "https://pypi.org/pypi/openai-agents/json"
+  }
+}

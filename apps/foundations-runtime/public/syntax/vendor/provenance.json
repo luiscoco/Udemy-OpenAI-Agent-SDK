@@ -1,0 +1,8 @@
+{
+  "package": "@highlightjs/cdn-assets",
+  "version": "11.11.1",
+  "license": "BSD-3-Clause",
+  "source": "https://registry.npmjs.org/@highlightjs/cdn-assets/-/cdn-assets-11.11.1.tgz",
+  "sha1": "136984ae467865e22080b3a4b65398a086e1ae7b",
+  "files": "Unmodified ES module core and selected language grammars. LICENSE accompanies the distribution."
+}

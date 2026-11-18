@@ -1,0 +1,91 @@
+/* Syntax colors use the same dark palette in source explorers and result cards. */
+.syntax-code {
+  --syntax-keyword: #ff9dc5;
+  --syntax-string: #a5e0a0;
+  --syntax-number: #f9c784;
+  --syntax-function: #8ecbff;
+  --syntax-property: #86dce7;
+  --syntax-comment: #9aa9bc;
+  color: #e6edf3;
+  tab-size: 2;
+}
+.syntax-code .hljs-keyword,
+.syntax-code .hljs-selector-tag,
+.syntax-code .hljs-literal {
+  color: var(--syntax-keyword);
+}
+.syntax-code .hljs-string,
+.syntax-code .hljs-regexp,
+.syntax-code .hljs-addition,
+.syntax-code .hljs-template-tag {
+  color: var(--syntax-string);
+}
+.syntax-code .hljs-number,
+.syntax-code .hljs-symbol,
+.syntax-code .hljs-type {
+  color: var(--syntax-number);
+}
+.syntax-code .hljs-title,
+.syntax-code .hljs-section,
+.syntax-code .hljs-name {
+  color: var(--syntax-function);
+}
+.syntax-code .hljs-attr,
+.syntax-code .hljs-attribute,
+.syntax-code .hljs-property,
+.syntax-code .hljs-built_in,
+.syntax-code .hljs-variable {
+  color: var(--syntax-property);
+}
+.syntax-code .hljs-comment,
+.syntax-code .hljs-quote,
+.syntax-code .hljs-meta {
+  color: var(--syntax-comment);
+}
+.syntax-code .hljs-deletion {
+  color: var(--syntax-keyword);
+}
+.syntax-code .hljs-emphasis {
+  font-style: italic;
+}
+.syntax-code .hljs-strong {
+  font-weight: 700;
+}
+pre.syntax-code {
+  background: #102544;
+  border-radius: 10px;
+  padding: 16px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  overflow: auto;
+}
+.answer-code {
+  background: #102544;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px 0;
+  font:
+    15px/1.7 "Cascadia Code",
+    Consolas,
+    monospace;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  overflow: auto;
+  max-width: 100%;
+}
+@media print {
+  .syntax-code {
+    --syntax-keyword: #922b68;
+    --syntax-string: #21623a;
+    --syntax-number: #7c4a00;
+    --syntax-function: #155c99;
+    --syntax-property: #09666d;
+    --syntax-comment: #526077;
+    color: #24292f;
+  }
+  .answer-code,
+  pre.syntax-code {
+    background: #f5f5f5;
+    color: #24292f;
+  }
+}

@@ -1,0 +1,30 @@
+# Prompt 89 — First handoff
+
+Build a triage agent that hands requests to billing, technical-support, or account specialists.
+
+A real SDK handoff moves the support conversation to billing, technical or account support. Classroom routing is scripted. Inspect the observed handoff items and final answer owner.
+
+## Run in Windows Terminal
+
+Use Node.js 24 or later and install the shared dependencies.
+
+```powershell
+cd ".\apps"
+npm ci
+npm run lesson:89
+```
+
+Open http://127.0.0.1:3189. The app includes scenario controls, actual source, execution evidence, a knowledge check, instructor guidance and Recording view.
+
+Classroom model decisions are scripted while SDK transitions, validation and local protocols execute. To use live inference, copy .env.example to .env in this app folder, configure OPENAI_API_KEY and an accessible OPENAI_MODEL, then restart. Model decisions can vary and live runs incur charges.
+
+## Record the walkthrough
+
+```powershell
+cd ".\apps\prompt-089-first-handoff"
+npm run record
+```
+
+The recorder saves a WebM and final-frame PNG in recordings and closes its owned browser and server.
+
+[Official OpenAI documentation](https://developers.openai.com/api/docs/guides/agents/orchestration).

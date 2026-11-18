@@ -1,0 +1,27 @@
+{
+  "name": "prompt-001-product-map-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An interactive classroom lab comparing four OpenAI developer products.",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "dev": "node --watch --env-file-if-exists=.env server.mjs",
+    "test": "node --test tests/server.test.mjs",
+    "test:e2e": "playwright test",
+    "record": "node scripts/record-lesson.mjs"
+  },
+  "dependencies": {
+    "@openai/agents": "0.21.0",
+    "@openai/codex-sdk": "0.167.2",
+    "openai": "7.55.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "prettier": "3.10.1"
+  }
+}

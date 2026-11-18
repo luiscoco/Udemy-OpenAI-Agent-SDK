@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Interactive OpenAI Agents SDK lessons with executable examples and recording support."
+    />
+    <title>Agent Academy · SDK lessons</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/pilot.css" />
+    <link rel="stylesheet" href="/syntax/theme.css" />
+    <link rel="icon" type="image/svg+xml" href="/assets/openai-icon.svg" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <a class="brand" href="/"
+        >a<span>Agent Academy<small>Developer lessons</small></span></a
+      >
+      <p class="nav-label">YOUR CLASSROOM</p>
+      <nav id="navigation" aria-label="SDK lessons"></nav>
+      <div class="sidebar-note">
+        Learn by running.<br />Teach by showing.<span>OpenAI Agents SDK</span>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <div>
+          <b id="category">Foundations</b> <span>/</span>
+          <strong id="breadcrumb">Loading lesson</strong>
+        </div>
+        <div class="header-actions">
+          <button id="guide-button">Lesson guide</button
+          ><button id="record-button" aria-pressed="false">
+            Recording view
+          </button>
+        </div>
+      </header>
+      <section class="intro">
+        <p class="eyebrow">AGENTS SDK · FOUNDATIONS</p>
+        <h1 id="headline">Loading your classroom…</h1>
+        <p id="summary"></p>
+      </section>
+      <section class="lab" aria-label="Interactive lesson">
+        <div class="lab-heading">
+          <div>
+            <p class="eyebrow" id="prompt-number"></p>
+            <h2 id="lab-title"></h2>
+          </div>
+          <div class="mode" id="mode-controls">
+            <button id="classroom-mode" aria-pressed="true">Classroom</button
+            ><button id="live-mode" aria-pressed="false">Live API</button>
+          </div>
+        </div>
+        <div id="configuration" class="notice" hidden></div>
+        <div class="workspace">
+          <section class="exercise">
+            <div id="exercise-controls"></div>
+            <div class="execution-controls">
+              <button class="primary" id="run-button">Run exercise</button
+              ><button id="next-button">Next step →</button
+              ><button id="reset-button" class="subtle">Reset</button>
+            </div>
+            <p id="execution-label" class="execution-label">
+              Ready for a local classroom exercise
+            </p>
+            <div class="flow" aria-label="Execution participants">
+              <div data-actor="application">Application</div>
+              <span>→</span>
+              <div data-actor="sdk">Runner</div>
+              <span>↔</span>
+              <div data-actor="model">Model</div>
+              <span>↔</span>
+              <div data-actor="tool">Tool</div>
+            </div>
+            <div id="step-status" class="step-status">
+              Choose your inputs, then run or step through the exercise.
+            </div>
+            <ol id="timeline" class="timeline"></ol>
+            <div id="error" class="error" role="alert" hidden></div>
+            <section id="result" class="result" hidden>
+              <h3 id="result-heading">Exercise result</h3>
+              <div id="output" class="code-answer"></div>
+              <details>
+                <summary>Inspect execution evidence</summary>
+                <pre id="evidence"></pre>
+              </details>
+            </section>
+          </section>
+          <section class="source-panel" aria-label="Source explorer">
+            <div class="source-heading">
+              <h3>Source explorer</h3>
+              <a id="full-source" target="_blank" rel="noreferrer"
+                >Full file ↗</a
+              >
+            </div>
+            <div
+              id="source-tabs"
+              class="source-tabs"
+              role="tablist"
+              aria-label="Source files"
+            ></div>
+            <p id="source-note"></p>
+            <pre id="source-code" tabindex="0"></pre>
+            <div class="source-footer">
+              <span id="source-name"></span
+              ><button id="copy-button">Copy code</button>
+            </div>
+          </section>
+        </div>
+        <footer class="takeaway" id="takeaway">
+          Follow the execution and connect each stage to the source.
+        </footer>
+      </section>
+      <section class="knowledge">
+        <div>
+          <p class="eyebrow">CHECK YOUR UNDERSTANDING</p>
+          <h2 id="quiz-question"></h2>
+        </div>
+        <div id="quiz-answers"></div>
+        <p id="quiz-feedback" aria-live="polite"></p>
+      </section>
+      <footer class="page-footer">
+        Classroom examples label scripted model output and actual local
+        execution.<a
+          href="https://developers.openai.com/api/docs/guides/agents/quickstart"
+          target="_blank"
+          rel="noreferrer"
+          >Official SDK documentation ↗</a
+        >
+      </footer>
+    </main>
+    <dialog id="guide">
+      <form method="dialog">
+        <button class="close" aria-label="Close lesson guide">×</button>
+      </form>
+      <p class="eyebrow">INSTRUCTOR GUIDE</p>
+      <h2 id="guide-title"></h2>
+      <blockquote id="exact-prompt"></blockquote>
+      <h3>Teach the concept</h3>
+      <ol id="teaching-steps"></ol>
+      <h3>Record the walkthrough</h3>
+      <p>
+        Use Recording view, select an example, and advance with Next step while
+        explaining the code. The recording script captures a repeatable
+        1920×1080 walkthrough with classroom fixtures.
+      </p>
+      <pre id="record-command"></pre>
+      <h3>Run with your account</h3>
+      <p id="live-guidance"></p>
+    </dialog>
+  </body>
+</html>

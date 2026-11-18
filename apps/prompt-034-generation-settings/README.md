@@ -1,0 +1,28 @@
+# Prompt 34 — Generation settings
+
+Configure supported generation settings and explain which settings the selected model accepts.
+
+From Windows PowerShell
+
+```powershell
+cd ".\apps"
+npm ci
+npm run lesson:34
+```
+
+Open http://127.0.0.1:3134. The app includes scenario controls, an execution timeline, actual source, execution evidence, a knowledge check, and Recording view.
+
+The compatibility profile checks the requested combination before transmission.
+
+Classroom mode runs local SDK operations with scripted model responses. Prompt 29 labels injected refusal and incomplete-result fixtures. Prompt 33 captures the real resolved provider request in an isolated process. No API credentials are needed for classroom mode. Copy .env.example to .env in this folder and configure your own API key for Live API. Actual account-backed inference incurs provider costs. Live behavior has not been verified against a paid account.
+
+This lesson explicitly selects GPT-6 Astra or GPT-6 Luna. OPENAI_MODEL does not replace these comparison profiles. Astra rejects custom temperature and top_p; the Luna sampling profile uses reasoning none. The installed SDK uses modelSettings.text.verbosity. See [model compatibility guidance](https://developers.openai.com/api/docs/guides/latest-model).
+
+Record this lesson
+
+```powershell
+cd ".\apps\prompt-034-generation-settings"
+npm run record
+```
+
+Videos and a final screenshot are written to this folder's recordings directory. The recorder owns and closes its temporary server.

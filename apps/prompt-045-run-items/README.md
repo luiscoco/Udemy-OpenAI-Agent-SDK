@@ -1,0 +1,28 @@
+# Prompt 45 — Run items
+
+Inspect the run’s model messages, tool calls, tool results, and handoff records.
+
+Run in Windows Terminal with PowerShell.
+
+```powershell
+cd ".\apps"
+npm ci
+npm run lesson:45
+```
+
+Open http://127.0.0.1:3145.
+
+newItems contains typed SDK records with agent ownership. history contains replay-ready model input.
+
+The lesson executes the actual installed Agents SDK using a scripted local Model adapter. Token reports are synthetic teaching fixtures. Classroom examples require no API credentials. The source explorer, outcome evidence, knowledge check and instructor guide are included.
+
+Record this lesson from its folder.
+
+```powershell
+cd ".\apps\prompt-045-run-items"
+npm run record
+```
+
+The recorder writes a WebM and final-frame PNG under recordings and closes its temporary browser and server.
+
+[Official running-agent guidance](https://developers.openai.com/api/docs/guides/agents/running-agents) and [results guidance](https://developers.openai.com/api/docs/guides/agents/results).

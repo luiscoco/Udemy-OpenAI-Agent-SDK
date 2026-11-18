@@ -1,0 +1,8 @@
+{
+  "name": "robotics-club-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/fees.test.mjs"
+  }
+}

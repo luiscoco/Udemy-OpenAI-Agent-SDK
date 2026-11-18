@@ -1,0 +1,53 @@
+# Local credentials: only blank example templates belong in the repository.
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.pfx
+
+# Installed dependencies, caches, runtime state, and test output.
+**/node_modules/
+.runtime/
+**/.runtime/
+**/.cache/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.pyc
+**/test-results/
+**/playwright-report/
+**/coverage/
+**/uploads/
+**/generated/
+**/recordings/
+**/*.log
+**/*.db
+**/*.db-*
+**/*.sqlite
+**/*.sqlite-*
+**/*.sqlite3
+**/*.sqlite3-*
+
+# Instructor media production stays local; students run the application source.
+output/
+apps/student-release/
+apps/teaching-pilot/
+apps/foundations-runtime/video/
+*.docx
+**/*.mp4
+**/*.webm
+**/*.mp3
+**/*.wav
+**/*.zip
+**/*.partial
+
+# Editor and operating-system files.
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/

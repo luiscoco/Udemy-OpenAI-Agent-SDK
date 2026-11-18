@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Explore who owns execution across the Agents SDK, Responses API, Agents API, and Codex SDK."
+    />
+    <title>Product Map Lab · Agent Academy</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/syntax/theme.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <aside class="sidebar" aria-label="Course navigation">
+      <a class="brand" href="/" aria-label="Agent Academy home"
+        ><span class="brand-mark">a</span
+        ><span>agent<span class="brand-light">academy</span></span></a
+      >
+      <div class="course-label">THE AGENTS SDK COURSE</div>
+      <div class="course-title">From concepts<br />to working agents.</div>
+      <nav>
+        <div class="nav-section">FOUNDATIONS</div>
+        <a class="lesson-link active" href="/" aria-current="page"
+          ><span class="lesson-number">01</span
+          ><span>Product map<small>Interactive lab</small></span
+          ><span class="nav-dot"></span
+        ></a>
+      </nav>
+      <div class="sidebar-bottom">
+        <span class="book-icon" data-icon="book"></span>
+        <div>
+          One concept at a time.<small>Learn it. Run it. Explain it.</small>
+        </div>
+      </div>
+    </aside>
+    <div class="shell">
+      <header class="topbar">
+        <div class="breadcrumb">
+          Foundations <span>/</span> <strong>Product map</strong>
+        </div>
+        <div class="header-actions">
+          <button class="quiet-button" id="notes-button">
+            <span data-icon="book"></span>Lesson guide</button
+          ><button
+            class="quiet-button"
+            id="recording-button"
+            aria-pressed="false"
+          >
+            <span data-icon="screen"></span>Recording view
+          </button>
+        </div>
+      </header>
+      <main id="main">
+        <section class="hero" aria-labelledby="page-title">
+          <div>
+            <div class="eyebrow"><span></span>PROMPT 01 · PRODUCT MAP</div>
+            <h1 id="page-title">
+              Four products.<br /><span>Find your starting point.</span>
+            </h1>
+            <p>
+              Explore where your code runs, who owns the agent loop,<br
+                class="desktop-break"
+              />
+              and which product fits the work you want to do.
+            </p>
+          </div>
+          <div class="hero-note">
+            <span class="small-label">THE QUESTION TO ASK</span>
+            <div>Who should own<br />the workflow?</div>
+            <p>Follow a task from your application<br />to its result.</p>
+            <span class="hero-note-arrow" data-icon="arrow"></span>
+          </div>
+        </section>
+        <section
+          class="product-grid"
+          id="product-grid"
+          aria-label="Choose a product"
+        ></section>
+        <section class="lab" id="execution-lab" aria-labelledby="lab-title">
+          <header class="lab-header">
+            <div>
+              <div class="section-kicker">EXPLORE THE EXECUTION</div>
+              <h2 id="lab-title">Agents SDK <span>in action</span></h2>
+            </div>
+            <div class="mode-control" aria-label="Execution mode">
+              <button id="demo-mode" aria-pressed="true">Classroom demo</button
+              ><button id="live-mode" aria-pressed="false">
+                <span class="live-dot"></span>Live API
+              </button>
+            </div>
+          </header>
+          <div class="task-bar">
+            <span data-icon="message"></span
+            ><span class="task-label">THE TASK</span>
+            <p id="task-text"></p>
+          </div>
+          <div class="lab-controls">
+            <div class="execution-label">
+              <span class="status-dot" id="status-dot"></span
+              ><span id="mode-description"
+                >Simulation · scripted model output</span
+              >
+            </div>
+            <div class="playback">
+              <button class="text-button" id="reset-button">
+                <span data-icon="reset"></span>Reset</button
+              ><button class="secondary-button" id="next-button">
+                Next step<span data-icon="next"></span></button
+              ><button class="primary-button" id="run-button">
+                <span data-icon="play"></span
+                ><span id="run-label">Run demo</span>
+              </button>
+            </div>
+          </div>
+          <div class="setup-notice" id="setup-notice" hidden></div>
+          <div class="execution-grid">
+            <div class="workflow-panel">
+              <div class="panel-heading">
+                <h3>Follow the workflow</h3>
+                <span id="step-counter">Ready to explore</span>
+              </div>
+              <div
+                class="workflow"
+                id="workflow"
+                aria-label="Execution architecture"
+              ></div>
+              <div class="ownership">
+                <span data-icon="location"></span>
+                <p id="ownership-text"></p>
+              </div>
+              <ol class="step-list" id="step-list"></ol>
+              <div class="result-panel" id="result-panel" hidden>
+                <div class="result-heading">
+                  <span data-icon="check"></span>
+                  <h3 id="result-title">Illustrative result</h3>
+                </div>
+                <p id="result-text"></p>
+                <details id="evidence-details">
+                  <summary id="evidence-title">Inspect evidence</summary>
+                  <pre id="result-evidence"></pre>
+                </details>
+                <div id="session-actions" hidden>
+                  <span id="session-id"></span>
+                </div>
+              </div>
+              <div
+                class="error-panel"
+                id="error-panel"
+                role="alert"
+                hidden
+              ></div>
+            </div>
+            <div class="code-panel">
+              <div class="code-header">
+                <span
+                  ><span class="code-file-dot"></span
+                  ><span id="code-filename">agents-sdk.mjs</span></span
+                >
+                <div>
+                  <button
+                    id="copy-button"
+                    class="code-button"
+                    aria-label="Copy code"
+                  >
+                    Copy</button
+                  ><a
+                    id="source-link"
+                    class="code-button"
+                    target="_blank"
+                    rel="noreferrer"
+                    >Full source<span data-icon="external"></span
+                  ></a>
+                </div>
+              </div>
+              <div class="code-caption">Executable server excerpt</div>
+              <pre class="code-block"><code id="code-content"></code></pre>
+              <div class="code-note">
+                <span data-icon="info"></span>
+                <p id="code-note-text"></p>
+              </div>
+              <div class="code-footer">
+                <span class="file-language">JAVASCRIPT · ESM</span
+                ><span id="code-status">Highlight follows execution</span>
+              </div>
+            </div>
+          </div>
+          <footer class="lab-footer">
+            <span data-icon="lightbulb"></span>
+            <p id="takeaway"></p>
+            <a id="documentation-link" target="_blank" rel="noreferrer"
+              >Official docs<span data-icon="external"></span
+            ></a>
+          </footer>
+          <details class="hosted-sessions" id="hosted-sessions" hidden>
+            <summary>Hosted sessions created by this server</summary>
+            <p>
+              Inspect saved session IDs and delete hosted sessions when the
+              lesson is finished.
+            </p>
+            <div id="hosted-session-list"></div>
+          </details>
+        </section>
+        <section class="knowledge-check" aria-labelledby="check-title">
+          <div>
+            <div class="section-kicker">CHECK YOUR UNDERSTANDING</div>
+            <h2 id="check-title">Which product would you choose?</h2>
+            <p id="challenge-question"></p>
+          </div>
+          <div class="challenge-actions" id="challenge-actions"></div>
+          <div
+            class="challenge-feedback"
+            id="challenge-feedback"
+            aria-live="polite"
+          ></div>
+          <button class="text-button" id="challenge-next" hidden>
+            Next question<span data-icon="arrow"></span>
+          </button>
+        </section>
+        <footer class="page-footer">
+          <span>Agent Academy · Prompt 01 of 200</span
+          ><span>Built for learning, one working example at a time.</span>
+        </footer>
+        <div
+          id="announcement"
+          class="sr-only"
+          aria-live="polite"
+          aria-atomic="true"
+        ></div>
+      </main>
+    </div>
+    <dialog id="guide-dialog" aria-labelledby="guide-title">
+      <div class="dialog-header">
+        <div>
+          <div class="section-kicker">INSTRUCTOR’S GUIDE</div>
+          <h2 id="guide-title">Teach the product map</h2>
+        </div>
+        <button class="quiet-button" id="close-guide" aria-label="Close guide">
+          ✕
+        </button>
+      </div>
+      <blockquote id="implementation-prompt"></blockquote>
+      <h3>A five-minute lesson</h3>
+      <ol class="guide-list">
+        <li>Ask students who should own the workflow.</li>
+        <li>Select a product and read its task.</li>
+        <li>Use Next step to connect the diagram to the executable code.</li>
+        <li>Run the classroom demo, then inspect its result and evidence.</li>
+        <li>Compare all four products and answer the knowledge check.</li>
+      </ol>
+      <h3>Execution modes</h3>
+      <p>
+        Classroom demo uses scripted model outputs and a local dataset. It
+        offers repeatable playback for teaching. Live API invokes the installed
+        SDKs using server-side configuration.
+      </p>
+      <h3>Run live examples</h3>
+      <p>
+        Copy <code>.env.example</code> to <code>.env</code>, set
+        <code>OPENAI_API_KEY</code>, and restart. Agents API also needs
+        <code>ENABLE_AGENTS_API=true</code> and project access. Codex needs
+        <code>ENABLE_CODEX=true</code> and local authentication. Live runs use
+        your configured account and can incur usage charges.
+      </p>
+      <h3>Record the lesson</h3>
+      <p>
+        Run <code>npm run record</code> to capture a repeatable classroom
+        walkthrough. The recording uses a fresh local server and saves a WebM
+        video in <code>recordings/</code>.
+      </p>
+      <a
+        class="dialog-docs"
+        href="https://developers.openai.com/api/docs/guides/agents"
+        target="_blank"
+        rel="noreferrer"
+        >Open the official product guide ↗</a
+      >
+    </dialog>
+  </body>
+</html>
